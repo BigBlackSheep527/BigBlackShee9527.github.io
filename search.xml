@@ -1,6 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Ubuntu 16 双显卡安装教程</title>
+    <url>/2023/06/24/Ubuntu%2016%20%E5%8F%8C%E6%98%BE%E5%8D%A1%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="referrer" content="no-referrer" />
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <title>Ubuntu 16 双显卡安装教程</title>
+  <!-- <link rel="stylesheet" href="https://stackedit.io/style.css" /> -->
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><p>整整安装了两天半,<br>
+早上九点多到晚上十二点多,<br>
+一直尝试了很多方法,<br>
+重装两次系统.<br>
+网上的教程把我给坑地明明白白,<br>
+教程五花八门,看得我眼花缭乱,<br>
+终于,老天有眼,<br>
+在下午一点多的时候,<br>
+终于搞定,<br>
+如图你是16系统,你还是装为18或者19 的系统吧,<br>
+因为bug真的很多<br>
+教程如下:</p>
+<ol>
+<li>更换系统,改为19的,18应该也可以</li>
+<li>打开软件与更新,</li>
+<li>选择下面的图片第二项,(第一项我试过了,也成功,不过有bug,显示不正常,还是用390吧)</li>
+<li>应用更改,<br>
+待会弹出一个窗口,会让你设置密码,两次密码要输入一样<br>
+<img src="https://img-blog.csdnimg.cn/20190726141412819.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></li>
+</ol>
+<p>4.重启系统,之后会蓝屏(蓝屏是正常的),按任意键,选择第二个选项,回车,直到跳出一个输入框,输入你刚刚设置的密码,回车,重启,</p>
+<p>5.进入系统,打开系统详情信息,可以看到"图像"已经是MK150显卡,完美,<br>
+<img src="https://img-blog.csdnimg.cn/20190726142312140.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>
+打开NVIDIA X Server Settings ,可以看到成功画面如下,不然,就是你操作不当失败了<br>
+<img src="https://img-blog.csdnimg.cn/20190726142244375.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h2><a id="_26"></a>最后,我想说,网上的一些教程真是</h2>
+<h2><a id="_27"></a>辣鸡辣鸡辣鸡辣鸡!!!</h2>
+</div>
+</body>
+
+</html>
+]]></content>
+      <categories>
+        <category>Ubuntu</category>
+        <category>双显卡安装教程</category>
+      </categories>
+      <tags>
+        <tag>Ubuntu 16</tag>
+        <tag>双显卡安装教程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>SQL常用命令</title>
     <url>/2023/06/22/SQL%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
     <content><![CDATA[<p><a name="cKqKF"></a></p>
@@ -61,60 +117,31 @@
       </tags>
   </entry>
   <entry>
-    <title>Ubuntu 16 双显卡安装教程</title>
-    <url>/2023/06/24/Ubuntu%2016%20%E5%8F%8C%E6%98%BE%E5%8D%A1%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[<!DOCTYPE html>
-<html>
-
-<head>
+    <title>eric汉化</title>
+    <url>/2023/06/24/eric%E6%B1%89%E5%8C%96/</url>
+    <content><![CDATA[<head>
   <meta charset="utf-8">
   <meta name="referrer" content="no-referrer" />
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-  <title>Ubuntu 16 双显卡安装教程</title>
-  <!-- <link rel="stylesheet" href="https://stackedit.io/style.css" /> -->
+  <title>某eric汉化</title>
 </head>
 
 <body class="stackedit">
-  <div class="stackedit__html"><p>整整安装了两天半,<br>
-早上九点多到晚上十二点多,<br>
-一直尝试了很多方法,<br>
-重装两次系统.<br>
-网上的教程把我给坑地明明白白,<br>
-教程五花八门,看得我眼花缭乱,<br>
-终于,老天有眼,<br>
-在下午一点多的时候,<br>
-终于搞定,<br>
-如图你是16系统,你还是装为18或者19 的系统吧,<br>
-因为bug真的很多<br>
-教程如下:</p>
-<ol>
-<li>更换系统,改为19的,18应该也可以</li>
-<li>打开软件与更新,</li>
-<li>选择下面的图片第二项,(第一项我试过了,也成功,不过有bug,显示不正常,还是用390吧)</li>
-<li>应用更改,<br>
-待会弹出一个窗口,会让你设置密码,两次密码要输入一样<br>
-<img src="https://img-blog.csdnimg.cn/20190726141412819.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></li>
-</ol>
-<p>4.重启系统,之后会蓝屏(蓝屏是正常的),按任意键,选择第二个选项,回车,直到跳出一个输入框,输入你刚刚设置的密码,回车,重启,</p>
-<p>5.进入系统,打开系统详情信息,可以看到"图像"已经是MK150显卡,完美,<br>
-<img src="https://img-blog.csdnimg.cn/20190726142312140.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>
-打开NVIDIA X Server Settings ,可以看到成功画面如下,不然,就是你操作不当失败了<br>
-<img src="https://img-blog.csdnimg.cn/20190726142244375.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h2><a id="_26"></a>最后,我想说,网上的一些教程真是</h2>
-<h2><a id="_27"></a>辣鸡辣鸡辣鸡辣鸡!!!</h2>
+  <div class="stackedit__html"><p>网上的一堆教程真是够垃圾，复杂而又无效，明明是简单的事情，偏偏要搞得那么复杂。<br>
+话不多说，简单技巧如下：</p>
+<p><img src="https://img-blog.csdnimg.cn/20190608221440279.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>首先<br>
+下载图片相关汉化包，<br>
+其次<br>
+放在其都是.qm的文件夹，如下图所示<br>
+汉化成功!<br>
+<br>
+<img src="https://img-blog.csdnimg.cn/20201005223233514.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70#pic_center" alt=""><img src="https://img-blog.csdnimg.cn/20190608221850982.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>
+附上成功界面<img src="https://img-blog.csdnimg.cn/20190608221935696.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
 </div>
 </body>
 
-</html>
+
 ]]></content>
-      <categories>
-        <category>Ubuntu</category>
-        <category>双显卡安装教程</category>
-      </categories>
-      <tags>
-        <tag>Ubuntu 16</tag>
-        <tag>双显卡安装教程</tag>
-      </tags>
   </entry>
   <entry>
     <title>来着用户chinyan的文章</title>
@@ -195,6 +222,87 @@
 <p>解决<br>如果 <code>hexo d</code> 后 <code>ERROR Deployer not found: git</code></p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">\<span class="comment"># 安装  </span></span><br><span class="line">npm install --save hexo-deployer-git​  </span><br></pre></td></tr></table></figure>
 ]]></content>
+  </entry>
+  <entry>
+    <title>Git常用命令</title>
+    <url>/2023/06/20/gitcomend/</url>
+    <content><![CDATA[<table>
+<thead>
+<tr>
+<th>目的</th>
+<th>GIT命令</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>第一次初始化仓库</td>
+<td><code>git init</code><br><code>git add .</code><br><code>git commit -m [描述字体，例如 &quot;first commit &quot;]</code><br><code>git remote add origin [仓库地址]</code><br><code>git push -u origin [分支名称，一般第一次有默认的master]</code></td>
+</tr>
+<tr>
+<td>拉取远程分支到本地</td>
+<td><code>git fetch origin [分支名称]</code></td>
+</tr>
+<tr>
+<td>提送到git</td>
+<td><code>git push origin [分支名称]</code></td>
+</tr>
+<tr>
+<td>删除本地分支</td>
+<td><code>git branch -d [分支的名称]</code></td>
+</tr>
+<tr>
+<td>删除远程分支</td>
+<td><code>git push origin --delete [分支的名称]</code></td>
+</tr>
+<tr>
+<td>查看远程分支与本地分支</td>
+<td><code>git branch -a</code></td>
+</tr>
+<tr>
+<td>合并分支</td>
+<td><code>git pull origin [目标分支]</code><br><code>git merge [被合分支]</code><br><code>git push origin [目标分支]</code></td>
+</tr>
+<tr>
+<td>更新远程分支列表</td>
+<td><code>git remote update origin --prune</code></td>
+</tr>
+<tr>
+<td>查看所有分支</td>
+<td><code>git branch -a</code></td>
+</tr>
+<tr>
+<td>撤销提交</td>
+<td><code>git reset --soft [HEAD^ | HEAD~1 | HEAD ~&lt;n&gt;]</code></td>
+</tr>
+<tr>
+<td>创建本地分支</td>
+<td><code>git branch [分支名称]</code></td>
+</tr>
+<tr>
+<td>切换分支</td>
+<td><code>git checkout [分支名称]</code></td>
+</tr>
+<tr>
+<td>创建并切换到创建的分支</td>
+<td><code>git checkout -b [分支名称]</code></td>
+</tr>
+<tr>
+<td>根据已有的远程分支创建新的分支</td>
+<td><code>git checkout -b [创建的分支名] origin/[远程的分支名称]</code></td>
+</tr>
+<tr>
+<td>删除分支</td>
+<td><code>git branch -d [分支名称]</code></td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Git常用命令</category>
+      </categories>
+      <tags>
+        <tag>基础</tag>
+        <tag>Git常用</tag>
+      </tags>
   </entry>
   <entry>
     <title>docker常用命令</title>
@@ -294,114 +402,6 @@
       </tags>
   </entry>
   <entry>
-    <title>eric汉化</title>
-    <url>/2023/06/24/eric%E6%B1%89%E5%8C%96/</url>
-    <content><![CDATA[<head>
-  <meta charset="utf-8">
-  <meta name="referrer" content="no-referrer" />
-  <title>某eric汉化</title>
-</head>
-
-<body class="stackedit">
-  <div class="stackedit__html"><p>网上的一堆教程真是够垃圾，复杂而又无效，明明是简单的事情，偏偏要搞得那么复杂。<br>
-话不多说，简单技巧如下：</p>
-<p><img src="https://img-blog.csdnimg.cn/20190608221440279.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p>首先<br>
-下载图片相关汉化包，<br>
-其次<br>
-放在其都是.qm的文件夹，如下图所示<br>
-汉化成功!<br>
-<br>
-<img src="https://img-blog.csdnimg.cn/20201005223233514.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70#pic_center" alt=""><img src="https://img-blog.csdnimg.cn/20190608221850982.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>
-附上成功界面<img src="https://img-blog.csdnimg.cn/20190608221935696.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-</div>
-</body>
-
-
-]]></content>
-  </entry>
-  <entry>
-    <title>Git常用命令</title>
-    <url>/2023/06/20/gitcomend/</url>
-    <content><![CDATA[<table>
-<thead>
-<tr>
-<th>目的</th>
-<th>GIT命令</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>第一次初始化仓库</td>
-<td><code>git init</code><br><code>git add .</code><br><code>git commit -m [描述字体，例如 &quot;first commit &quot;]</code><br><code>git remote add origin [仓库地址]</code><br><code>git push -u origin [分支名称，一般第一次有默认的master]</code></td>
-</tr>
-<tr>
-<td>拉取远程分支到本地</td>
-<td><code>git fetch origin [分支名称]</code></td>
-</tr>
-<tr>
-<td>提送到git</td>
-<td><code>git push origin [分支名称]</code></td>
-</tr>
-<tr>
-<td>删除本地分支</td>
-<td><code>git branch -d [分支的名称]</code></td>
-</tr>
-<tr>
-<td>删除远程分支</td>
-<td><code>git push origin --delete [分支的名称]</code></td>
-</tr>
-<tr>
-<td>查看远程分支与本地分支</td>
-<td><code>git branch -a</code></td>
-</tr>
-<tr>
-<td>合并分支</td>
-<td><code>git pull origin [目标分支]</code><br><code>git merge [被合分支]</code><br><code>git push origin [目标分支]</code></td>
-</tr>
-<tr>
-<td>更新远程分支列表</td>
-<td><code>git remote update origin --prune</code></td>
-</tr>
-<tr>
-<td>查看所有分支</td>
-<td><code>git branch -a</code></td>
-</tr>
-<tr>
-<td>撤销提交</td>
-<td><code>git reset --soft [HEAD^ | HEAD~1 | HEAD ~&lt;n&gt;]</code></td>
-</tr>
-<tr>
-<td>创建本地分支</td>
-<td><code>git branch [分支名称]</code></td>
-</tr>
-<tr>
-<td>切换分支</td>
-<td><code>git checkout [分支名称]</code></td>
-</tr>
-<tr>
-<td>创建并切换到创建的分支</td>
-<td><code>git checkout -b [分支名称]</code></td>
-</tr>
-<tr>
-<td>根据已有的远程分支创建新的分支</td>
-<td><code>git checkout -b [创建的分支名] origin/[远程的分支名称]</code></td>
-</tr>
-<tr>
-<td>删除分支</td>
-<td><code>git branch -d [分支名称]</code></td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>Git</category>
-        <category>Git常用命令</category>
-      </categories>
-      <tags>
-        <tag>基础</tag>
-        <tag>Git常用</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>lodash常用函数</title>
     <url>/2023/06/24/lodash/</url>
     <content><![CDATA[<p><a name="dOB5s"></a></p>
@@ -482,18 +482,6 @@
       </tags>
   </entry>
   <entry>
-    <title>批量改文件名与爬虫</title>
-    <url>/2023/06/24/%E6%89%B9%E9%87%8F%E6%94%B9%E6%96%87%E4%BB%B6%E5%90%8D%E4%B8%8E%E7%88%AC%E8%99%AB/</url>
-    <content><![CDATA[<meta name="referrer" content="no-referrer" />
-批量该文件名：
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">import os</span><br><span class="line"></span><br><span class="line">path = input(&#x27;请输入文件路径(结尾加上/)：&#x27;)</span><br><span class="line"></span><br><span class="line"># 获取该目录下所有文件，存入列表中</span><br><span class="line">fileList = os.listdir(path)</span><br><span class="line"></span><br><span class="line">n = 0</span><br><span class="line">for i in fileList:</span><br><span class="line">    # 设置旧文件名（就是路径+文件名）</span><br><span class="line">    oldname = path + os.sep + fileList[n]  # os.sep添加系统分隔符</span><br><span class="line"></span><br><span class="line">    # 设置新文件名</span><br><span class="line">    newname = path  + os.sep + &#x27;ZhaoLiying&#x27; + str(n + 1) + &#x27;.JPG&#x27;</span><br><span class="line"></span><br><span class="line">    os.rename(oldname, newname)  # 用os模块中的rename方法对文件改名</span><br><span class="line">    print(oldname, &#x27;======&gt;&#x27;, newname)</span><br><span class="line"></span><br><span class="line">    n += 1</span><br></pre></td></tr></table></figure>
-爬虫：
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">import urllib.request as ur</span><br><span class="line">import os</span><br><span class="line">import string</span><br><span class="line">import threading</span><br><span class="line">import re</span><br><span class="line">import requests</span><br><span class="line">import sys</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def get_image(keyworld, pn, rn, type, i):</span><br><span class="line">    try:</span><br><span class="line">        url = ur.quote(</span><br><span class="line">            &#x27;https://image.baidu.com/search/acjson?tn=resultjson_com&amp;ipn=rj&amp;ct=201326592&amp;is=&amp;fp=result&#x27;</span><br><span class="line">            &#x27;&amp;queryWord=&#x27; + keyworld + &#x27;&amp;cl=2&amp;lm=-1&amp;ie=utf-8&amp;oe=utf-8&amp;adpicid=&amp;st=-1&amp;z=&amp;ic=0&amp;word=&#x27; + keyworld +</span><br><span class="line">            &#x27;&amp;s=&amp;se=&amp;tab=&amp;width=&amp;height=&amp;face=0&amp;istype=2&amp;qc=&amp;nc=1&amp;fr=&amp;pn=&#x27; + str(pn) + &#x27;&amp;rn=&#x27; + str(</span><br><span class="line">                rn) + &#x27;&amp;gsm=1e&amp;1529504588260=&#x27;,</span><br><span class="line">            safe=string.printable)</span><br><span class="line">        req = ur.Request(url)</span><br><span class="line">        req.add_header(&quot;User-Agent&quot;, &quot;Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0&quot;)</span><br><span class="line">        html1 = ur.urlopen(url, timeout=600).read()</span><br><span class="line">        html1 = str(html1)</span><br><span class="line"></span><br><span class="line">        pat1 = &#x27;&quot;thumbURL&quot;:&quot;.+?&quot;,&#x27;</span><br><span class="line">        pat2 = &#x27;https:.+?.jpg&#x27;</span><br><span class="line">        thumbURLs = re.compile(pat1).findall(html1)</span><br><span class="line">        imageURLs = re.compile(pat2).findall(str(thumbURLs))</span><br><span class="line"></span><br><span class="line">        save_dir = type + &#x27;/&#x27; + type + i + &#x27;/&#x27;</span><br><span class="line">        if os.path.exists(save_dir) is False:</span><br><span class="line">            os.makedirs(save_dir)</span><br><span class="line">        num = 1</span><br><span class="line">        for index, imageurl in enumerate(imageURLs):</span><br><span class="line">            try:</span><br><span class="line">                data = ur.urlopen(imageurl, timeout=20).read()</span><br><span class="line">                fd = open(save_dir + type + &#x27;_&#x27; + str(pn) + &#x27;_&#x27; + str(index) + &#x27;.jpg&#x27;, &quot;wb&quot;)</span><br><span class="line">                fd.write(data)</span><br><span class="line">                fd.close()</span><br><span class="line">                sys.stdout.write(&#x27;下载成功%s\r&#x27; % num)</span><br><span class="line">                sys.stdout.flush()</span><br><span class="line">                num = num + 1</span><br><span class="line">            except Exception as e:</span><br><span class="line">                print(&#x27;保存图片异常:&#x27; + e)</span><br><span class="line">    except Exception as e:</span><br><span class="line">        print(&#x27;获取图片url异常:&#x27; + e)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">if __name__ == &#x27;__main__&#x27;:</span><br><span class="line">    ai = input(&quot;Input key: &quot;)</span><br><span class="line">    bi = input(&quot;Input num: &quot;)</span><br><span class="line">    for i in range(int(bi)):</span><br><span class="line">        get_image(ai, i * 50, 50, ai, str(i))</span><br><span class="line">    # tA = ThreadA()</span><br><span class="line">    # tA.start()</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-]]></content>
-  </entry>
-  <entry>
     <title>开源中国charm插件安装</title>
     <url>/2023/06/24/%E5%BC%80%E6%BA%90%E4%B8%AD%E5%9B%BD%EF%BD%83%EF%BD%88%EF%BD%81%EF%BD%92%EF%BD%8D%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85/</url>
     <content><![CDATA[<!DOCTYPE html>
@@ -539,5 +527,17 @@
         <tag>开源中国</tag>
         <tag>charm插件</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>批量改文件名与爬虫</title>
+    <url>/2023/06/24/%E6%89%B9%E9%87%8F%E6%94%B9%E6%96%87%E4%BB%B6%E5%90%8D%E4%B8%8E%E7%88%AC%E8%99%AB/</url>
+    <content><![CDATA[<meta name="referrer" content="no-referrer" />
+批量该文件名：
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">import os</span><br><span class="line"></span><br><span class="line">path = input(&#x27;请输入文件路径(结尾加上/)：&#x27;)</span><br><span class="line"></span><br><span class="line"># 获取该目录下所有文件，存入列表中</span><br><span class="line">fileList = os.listdir(path)</span><br><span class="line"></span><br><span class="line">n = 0</span><br><span class="line">for i in fileList:</span><br><span class="line">    # 设置旧文件名（就是路径+文件名）</span><br><span class="line">    oldname = path + os.sep + fileList[n]  # os.sep添加系统分隔符</span><br><span class="line"></span><br><span class="line">    # 设置新文件名</span><br><span class="line">    newname = path  + os.sep + &#x27;ZhaoLiying&#x27; + str(n + 1) + &#x27;.JPG&#x27;</span><br><span class="line"></span><br><span class="line">    os.rename(oldname, newname)  # 用os模块中的rename方法对文件改名</span><br><span class="line">    print(oldname, &#x27;======&gt;&#x27;, newname)</span><br><span class="line"></span><br><span class="line">    n += 1</span><br></pre></td></tr></table></figure>
+爬虫：
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">import urllib.request as ur</span><br><span class="line">import os</span><br><span class="line">import string</span><br><span class="line">import threading</span><br><span class="line">import re</span><br><span class="line">import requests</span><br><span class="line">import sys</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def get_image(keyworld, pn, rn, type, i):</span><br><span class="line">    try:</span><br><span class="line">        url = ur.quote(</span><br><span class="line">            &#x27;https://image.baidu.com/search/acjson?tn=resultjson_com&amp;ipn=rj&amp;ct=201326592&amp;is=&amp;fp=result&#x27;</span><br><span class="line">            &#x27;&amp;queryWord=&#x27; + keyworld + &#x27;&amp;cl=2&amp;lm=-1&amp;ie=utf-8&amp;oe=utf-8&amp;adpicid=&amp;st=-1&amp;z=&amp;ic=0&amp;word=&#x27; + keyworld +</span><br><span class="line">            &#x27;&amp;s=&amp;se=&amp;tab=&amp;width=&amp;height=&amp;face=0&amp;istype=2&amp;qc=&amp;nc=1&amp;fr=&amp;pn=&#x27; + str(pn) + &#x27;&amp;rn=&#x27; + str(</span><br><span class="line">                rn) + &#x27;&amp;gsm=1e&amp;1529504588260=&#x27;,</span><br><span class="line">            safe=string.printable)</span><br><span class="line">        req = ur.Request(url)</span><br><span class="line">        req.add_header(&quot;User-Agent&quot;, &quot;Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0&quot;)</span><br><span class="line">        html1 = ur.urlopen(url, timeout=600).read()</span><br><span class="line">        html1 = str(html1)</span><br><span class="line"></span><br><span class="line">        pat1 = &#x27;&quot;thumbURL&quot;:&quot;.+?&quot;,&#x27;</span><br><span class="line">        pat2 = &#x27;https:.+?.jpg&#x27;</span><br><span class="line">        thumbURLs = re.compile(pat1).findall(html1)</span><br><span class="line">        imageURLs = re.compile(pat2).findall(str(thumbURLs))</span><br><span class="line"></span><br><span class="line">        save_dir = type + &#x27;/&#x27; + type + i + &#x27;/&#x27;</span><br><span class="line">        if os.path.exists(save_dir) is False:</span><br><span class="line">            os.makedirs(save_dir)</span><br><span class="line">        num = 1</span><br><span class="line">        for index, imageurl in enumerate(imageURLs):</span><br><span class="line">            try:</span><br><span class="line">                data = ur.urlopen(imageurl, timeout=20).read()</span><br><span class="line">                fd = open(save_dir + type + &#x27;_&#x27; + str(pn) + &#x27;_&#x27; + str(index) + &#x27;.jpg&#x27;, &quot;wb&quot;)</span><br><span class="line">                fd.write(data)</span><br><span class="line">                fd.close()</span><br><span class="line">                sys.stdout.write(&#x27;下载成功%s\r&#x27; % num)</span><br><span class="line">                sys.stdout.flush()</span><br><span class="line">                num = num + 1</span><br><span class="line">            except Exception as e:</span><br><span class="line">                print(&#x27;保存图片异常:&#x27; + e)</span><br><span class="line">    except Exception as e:</span><br><span class="line">        print(&#x27;获取图片url异常:&#x27; + e)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">if __name__ == &#x27;__main__&#x27;:</span><br><span class="line">    ai = input(&quot;Input key: &quot;)</span><br><span class="line">    bi = input(&quot;Input num: &quot;)</span><br><span class="line">    for i in range(int(bi)):</span><br><span class="line">        get_image(ai, i * 50, 50, ai, str(i))</span><br><span class="line">    # tA = ThreadA()</span><br><span class="line">    # tA.start()</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+]]></content>
   </entry>
 </search>
