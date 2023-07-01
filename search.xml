@@ -1,62 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Ubuntu 16 双显卡安装教程</title>
-    <url>/2023/06/24/Ubuntu%2016%20%E5%8F%8C%E6%98%BE%E5%8D%A1%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[<!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <meta name="referrer" content="no-referrer" />
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-  <title>Ubuntu 16 双显卡安装教程</title>
-  <!-- <link rel="stylesheet" href="https://stackedit.io/style.css" /> -->
-</head>
-
-<body class="stackedit">
-  <div class="stackedit__html"><p>整整安装了两天半,<br>
-早上九点多到晚上十二点多,<br>
-一直尝试了很多方法,<br>
-重装两次系统.<br>
-网上的教程把我给坑地明明白白,<br>
-教程五花八门,看得我眼花缭乱,<br>
-终于,老天有眼,<br>
-在下午一点多的时候,<br>
-终于搞定,<br>
-如图你是16系统,你还是装为18或者19 的系统吧,<br>
-因为bug真的很多<br>
-教程如下:</p>
-<ol>
-<li>更换系统,改为19的,18应该也可以</li>
-<li>打开软件与更新,</li>
-<li>选择下面的图片第二项,(第一项我试过了,也成功,不过有bug,显示不正常,还是用390吧)</li>
-<li>应用更改,<br>
-待会弹出一个窗口,会让你设置密码,两次密码要输入一样<br>
-<img src="https://img-blog.csdnimg.cn/20190726141412819.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></li>
-</ol>
-<p>4.重启系统,之后会蓝屏(蓝屏是正常的),按任意键,选择第二个选项,回车,直到跳出一个输入框,输入你刚刚设置的密码,回车,重启,</p>
-<p>5.进入系统,打开系统详情信息,可以看到"图像"已经是MK150显卡,完美,<br>
-<img src="https://img-blog.csdnimg.cn/20190726142312140.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>
-打开NVIDIA X Server Settings ,可以看到成功画面如下,不然,就是你操作不当失败了<br>
-<img src="https://img-blog.csdnimg.cn/20190726142244375.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h2><a id="_26"></a>最后,我想说,网上的一些教程真是</h2>
-<h2><a id="_27"></a>辣鸡辣鸡辣鸡辣鸡!!!</h2>
-</div>
-</body>
-
-</html>
-]]></content>
-      <categories>
-        <category>Ubuntu</category>
-        <category>双显卡安装教程</category>
-      </categories>
-      <tags>
-        <tag>Ubuntu 16</tag>
-        <tag>双显卡安装教程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>SQL常用命令</title>
     <url>/2023/06/22/SQL%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
     <content><![CDATA[<p><a name="cKqKF"></a></p>
@@ -115,33 +59,6 @@
         <tag>基础</tag>
         <tag>SQL常用</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>eric汉化</title>
-    <url>/2023/06/24/eric%E6%B1%89%E5%8C%96/</url>
-    <content><![CDATA[<head>
-  <meta charset="utf-8">
-  <meta name="referrer" content="no-referrer" />
-  <title>某eric汉化</title>
-</head>
-
-<body class="stackedit">
-  <div class="stackedit__html"><p>网上的一堆教程真是够垃圾，复杂而又无效，明明是简单的事情，偏偏要搞得那么复杂。<br>
-话不多说，简单技巧如下：</p>
-<p><img src="https://img-blog.csdnimg.cn/20190608221440279.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p>首先<br>
-下载图片相关汉化包，<br>
-其次<br>
-放在其都是.qm的文件夹，如下图所示<br>
-汉化成功!<br>
-<br>
-<img src="https://img-blog.csdnimg.cn/20201005223233514.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70#pic_center" alt=""><img src="https://img-blog.csdnimg.cn/20190608221850982.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>
-附上成功界面<img src="https://img-blog.csdnimg.cn/20190608221935696.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-</div>
-</body>
-
-
-]]></content>
   </entry>
   <entry>
     <title>来自用户chinyan的文章</title>
@@ -224,126 +141,87 @@
 ]]></content>
   </entry>
   <entry>
-    <title>lodash常用函数</title>
-    <url>/2023/06/24/lodash/</url>
-    <content><![CDATA[<p><a name="dOB5s"></a></p>
-<h3 id="1-去虚函数"><a href="#1-去虚函数" class="headerlink" title="1.去虚函数"></a>1.去虚函数</h3><figure class="highlight typescript"><table><tr><td class="code"><pre><span class="line">_.<span class="title function_">compact</span>([<span class="number">0</span>, <span class="number">1</span>, <span class="literal">false</span>, <span class="number">2</span>, <span class="string">&#x27;&#x27;</span>, <span class="number">3</span>]);<span class="comment">// =&gt; [1, 2, 3]</span></span><br></pre></td></tr></table></figure>
-<p><a name="FtVzU"></a></p>
-<h3 id="2-分组"><a href="#2-分组" class="headerlink" title="2.分组"></a>2.分组</h3><figure class="highlight typescript"><table><tr><td class="code"><pre><span class="line">_.<span class="title function_">chunk</span>([<span class="string">&#x27;a&#x27;</span>, <span class="string">&#x27;b&#x27;</span>, <span class="string">&#x27;c&#x27;</span>, <span class="string">&#x27;d&#x27;</span>], <span class="number">2</span>);<span class="comment">// =&gt; [[&#x27;a&#x27;, &#x27;b&#x27;], [&#x27;c&#x27;, &#x27;d&#x27;]]</span></span><br><span class="line"></span><br><span class="line">_.<span class="title function_">chunk</span>([<span class="string">&#x27;a&#x27;</span>, <span class="string">&#x27;b&#x27;</span>, <span class="string">&#x27;c&#x27;</span>, <span class="string">&#x27;d&#x27;</span>], <span class="number">3</span>);</span><br><span class="line"><span class="comment">// =&gt; [[&#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;], [&#x27;d&#x27;]]</span></span><br></pre></td></tr></table></figure>
-<p><a name="v3C2P"></a></p>
-<h3 id="3-连接"><a href="#3-连接" class="headerlink" title="3.连接"></a>3.连接</h3><figure class="highlight typescript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> array = [<span class="number">1</span>];</span><br><span class="line"><span class="keyword">var</span> other = _.<span class="title function_">concat</span>(array, <span class="number">2</span>, [<span class="number">3</span>], [[<span class="number">4</span>]]);</span><br><span class="line"></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(other);</span><br><span class="line"><span class="comment">// =&gt; [1, 2, 3, [4]]</span></span><br><span class="line"></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(array);</span><br><span class="line"><span class="comment">// =&gt; [1]</span></span><br></pre></td></tr></table></figure>
-<p><a name="Kjn9J"></a></p>
-<h3 id="4-限制字符串长度，超出用”…“表示"><a href="#4-限制字符串长度，超出用”…“表示" class="headerlink" title="4.限制字符串长度，超出用”…“表示"></a>4.限制字符串长度，超出用”…“表示</h3><figure class="highlight typescript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> a=<span class="string">&quot;aaaadfdfdfdf&quot;</span></span><br><span class="line"><span class="keyword">let</span> b=<span class="title function_">truncate</span>(a,&#123;<span class="attr">length</span>:(<span class="number">8</span>+<span class="number">3</span>)&#125;) <span class="comment">// 默认为&quot;...&quot;,加3是因为三个点也包括在里面</span></span><br><span class="line"><span class="keyword">let</span> b=<span class="title function_">truncate</span>(a,&#123;<span class="attr">length</span>:(<span class="number">8</span>+<span class="number">3</span>),<span class="attr">omission</span>: <span class="string">&#x27;&gt;&gt;&gt;&#x27;</span>&#125;) <span class="comment">// </span></span><br></pre></td></tr></table></figure>
-<p><a name="SMd0x"></a></p>
-<h3 id="5-数组相减"><a href="#5-数组相减" class="headerlink" title="5.数组相减"></a>5.数组相减</h3><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">result=_.<span class="title function_">difference</span>([<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>],[<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>])   <span class="comment">// [1]</span></span><br></pre></td></tr></table></figure>
-<p><a name="G2KFy"></a></p>
-<h3 id="工作实际用到过"><a href="#工作实际用到过" class="headerlink" title="工作实际用到过"></a>工作实际用到过</h3><p><a name="QmMQ2"></a></p>
-<h4 id="1-map与pick-x2F-omit的结合"><a href="#1-map与pick-x2F-omit的结合" class="headerlink" title="1.map与pick&#x2F;omit的结合"></a>1.map与pick&#x2F;omit的结合</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123;map, pick, omit&#125; <span class="keyword">from</span> <span class="string">&quot;lodash&quot;</span></span><br><span class="line"><span class="comment">// 提取Name与Num</span></span><br><span class="line"><span class="keyword">let</span> interData = <span class="title function_">map</span>(takeCreateData, <span class="function"><span class="params">o</span> =&gt;</span> <span class="title function_">pick</span>(o, [<span class="string">&#x27;Name&#x27;</span>, <span class="string">&quot;Num&quot;</span>]))</span><br><span class="line"><span class="comment">// 剔除Name与Num</span></span><br><span class="line"><span class="keyword">let</span> outterData = <span class="title function_">map</span>(takeCreateData, <span class="function"><span class="params">o</span> =&gt;</span> <span class="title function_">omit</span>(o, [<span class="string">&#x27;Name&#x27;</span>, <span class="string">&quot;Num&quot;</span>]))</span><br></pre></td></tr></table></figure>
-<p><a name="lcXvK"></a></p>
-<h4 id="2-去重-isEqual-uniqWith，uniq"><a href="#2-去重-isEqual-uniqWith，uniq" class="headerlink" title="2.去重 isEqual, uniqWith，uniq"></a>2.去重 isEqual, uniqWith，uniq</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123;unip, uniqWith, isEqual&#125; <span class="keyword">from</span> <span class="string">&quot;lodash&quot;</span></span><br><span class="line"><span class="comment">// 纯数组 例如[1,1,2,3,4,4,5]</span></span><br><span class="line"><span class="keyword">let</span> arr1 = <span class="title function_">uniq</span>(arr) <span class="comment">// [1,2,3,4,5]</span></span><br><span class="line"><span class="comment">// 对象数组 例如 [&#123;a:1,b:2&#125;,&#123;a:1,b:2&#125;,&#123;a:1,b:3&#125;] </span></span><br><span class="line"><span class="keyword">let</span> arr2 = <span class="title function_">uniqWith</span>(arr_, isEqual) <span class="comment">// [&#123;a:1,b:2&#125;,&#123;a:1,b:3&#125;]</span></span><br></pre></td></tr></table></figure>
-<p><a name="Ue52a"></a></p>
-<h4 id="3-排序orderby"><a href="#3-排序orderby" class="headerlink" title="3.排序orderby"></a>3.排序orderby</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123; orderBy &#125; <span class="keyword">from</span> <span class="string">&quot;lodash&quot;</span></span><br><span class="line"><span class="comment">/** 根据对象数组里面某个键的值来重新排序，desc 降序,asc升序,</span></span><br><span class="line"><span class="comment"> ** 例如[&#123;a:1,b:2&#125;,&#123;a:2,b:3&#125;]   </span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line">targetData = <span class="title function_">orderBy</span>(targetData, [<span class="string">&quot;a&quot;</span>], [<span class="string">&quot;desc&quot;</span>])</span><br><span class="line"></span><br><span class="line"><span class="comment">// 字符串排序</span></span><br><span class="line"><span class="title function_">sortBy</span>(value,[<span class="keyword">function</span>(<span class="params">o</span>) &#123; <span class="keyword">return</span> o; &#125;]);</span><br></pre></td></tr></table></figure>
-<p><a name="u25Pt"></a></p>
-<h4 id="4-数组相减，lodash-没有找到的，有替代方法，待找"><a href="#4-数组相减，lodash-没有找到的，有替代方法，待找" class="headerlink" title="4.数组相减，lodash 没有找到的，有替代方法，待找"></a>4.数组相减，lodash 没有找到的，有替代方法，待找</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">let</span> ids=[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>]</span><br><span class="line"><span class="keyword">let</span> unids = [<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>]</span><br><span class="line"><span class="comment">// let needids = ids.filter(el =&gt; !unids.includes(el)) //[1,2,3]</span></span><br><span class="line"><span class="keyword">let</span> needids = ids.<span class="title function_">filter</span>(<span class="function"><span class="params">el</span> =&gt;</span> !pids.<span class="title function_">find</span>(<span class="function"><span class="params">pid</span> =&gt;</span> pid === el))</span><br></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>lodash</tag>
-        <tag>常用</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Git常用命令</title>
-    <url>/2023/06/20/gitcomend/</url>
-    <content><![CDATA[<table>
-<thead>
-<tr>
-<th>目的</th>
-<th>GIT命令</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>第一次初始化仓库</td>
-<td><code>git init</code><br><code>git add .</code><br><code>git commit -m [描述字体，例如 &quot;first commit &quot;]</code><br><code>git remote add origin [仓库地址]</code><br><code>git push -u origin [分支名称，一般第一次有默认的master]</code></td>
-</tr>
-<tr>
-<td>拉取远程分支到本地</td>
-<td><code>git fetch origin [分支名称]</code></td>
-</tr>
-<tr>
-<td>提送到git</td>
-<td><code>git push origin [分支名称]</code></td>
-</tr>
-<tr>
-<td>删除本地分支</td>
-<td><code>git branch -d [分支的名称]</code></td>
-</tr>
-<tr>
-<td>删除远程分支</td>
-<td><code>git push origin --delete [分支的名称]</code></td>
-</tr>
-<tr>
-<td>查看远程分支与本地分支</td>
-<td><code>git branch -a</code></td>
-</tr>
-<tr>
-<td>合并分支</td>
-<td><code>git pull origin [目标分支]</code><br><code>git merge [被合分支]</code><br><code>git push origin [目标分支]</code></td>
-</tr>
-<tr>
-<td>更新远程分支列表</td>
-<td><code>git remote update origin --prune</code></td>
-</tr>
-<tr>
-<td>查看所有分支</td>
-<td><code>git branch -a</code></td>
-</tr>
-<tr>
-<td>撤销提交</td>
-<td><code>git reset --soft [HEAD^ | HEAD~1 | HEAD ~&lt;n&gt;]</code></td>
-</tr>
-<tr>
-<td>创建本地分支</td>
-<td><code>git branch [分支名称]</code></td>
-</tr>
-<tr>
-<td>切换分支</td>
-<td><code>git checkout [分支名称]</code></td>
-</tr>
-<tr>
-<td>创建并切换到创建的分支</td>
-<td><code>git checkout -b [分支名称]</code></td>
-</tr>
-<tr>
-<td>根据已有的远程分支创建新的分支</td>
-<td><code>git checkout -b [创建的分支名] origin/[远程的分支名称]</code></td>
-</tr>
-<tr>
-<td>删除分支</td>
-<td><code>git branch -d [分支名称]</code></td>
-</tr>
-</tbody></table>
+    <title>Ubuntu 16 双显卡安装教程</title>
+    <url>/2023/06/24/Ubuntu%2016%20%E5%8F%8C%E6%98%BE%E5%8D%A1%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="referrer" content="no-referrer" />
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <title>Ubuntu 16 双显卡安装教程</title>
+  <!-- <link rel="stylesheet" href="https://stackedit.io/style.css" /> -->
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><p>整整安装了两天半,<br>
+早上九点多到晚上十二点多,<br>
+一直尝试了很多方法,<br>
+重装两次系统.<br>
+网上的教程把我给坑地明明白白,<br>
+教程五花八门,看得我眼花缭乱,<br>
+终于,老天有眼,<br>
+在下午一点多的时候,<br>
+终于搞定,<br>
+如图你是16系统,你还是装为18或者19 的系统吧,<br>
+因为bug真的很多<br>
+教程如下:</p>
+<ol>
+<li>更换系统,改为19的,18应该也可以</li>
+<li>打开软件与更新,</li>
+<li>选择下面的图片第二项,(第一项我试过了,也成功,不过有bug,显示不正常,还是用390吧)</li>
+<li>应用更改,<br>
+待会弹出一个窗口,会让你设置密码,两次密码要输入一样<br>
+<img src="https://img-blog.csdnimg.cn/20190726141412819.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></li>
+</ol>
+<p>4.重启系统,之后会蓝屏(蓝屏是正常的),按任意键,选择第二个选项,回车,直到跳出一个输入框,输入你刚刚设置的密码,回车,重启,</p>
+<p>5.进入系统,打开系统详情信息,可以看到"图像"已经是MK150显卡,完美,<br>
+<img src="https://img-blog.csdnimg.cn/20190726142312140.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>
+打开NVIDIA X Server Settings ,可以看到成功画面如下,不然,就是你操作不当失败了<br>
+<img src="https://img-blog.csdnimg.cn/20190726142244375.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h2><a id="_26"></a>最后,我想说,网上的一些教程真是</h2>
+<h2><a id="_27"></a>辣鸡辣鸡辣鸡辣鸡!!!</h2>
+</div>
+</body>
+
+</html>
 ]]></content>
       <categories>
-        <category>Git</category>
-        <category>Git常用命令</category>
+        <category>Ubuntu</category>
+        <category>双显卡安装教程</category>
       </categories>
       <tags>
-        <tag>基础</tag>
-        <tag>Git常用</tag>
+        <tag>Ubuntu 16</tag>
+        <tag>双显卡安装教程</tag>
       </tags>
   </entry>
   <entry>
-    <title>unicloud 常用查表</title>
-    <url>/2023/06/24/unicloud%20%E5%B8%B8%E7%94%A8%E6%9F%A5%E8%A1%A8/</url>
-    <content><![CDATA[<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 直接关联多个表为虚拟联表再进行查询，旧写法，目前更推荐使用getTemp进行联表查询</span></span><br><span class="line"><span class="keyword">const</span> res = <span class="keyword">await</span> db.<span class="title function_">collection</span>(<span class="string">&#x27;order,book&#x27;</span>).<span class="title function_">where</span>(<span class="string">&#x27;_id==&quot;1&quot;&#x27;</span>).<span class="title function_">get</span>() <span class="comment">// 直接关联order和book之后再过滤</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 使用getTemp先过滤处理获取临时表再联表查询，推荐用法</span></span><br><span class="line"><span class="keyword">const</span> order = db.<span class="title function_">collection</span>(<span class="string">&#x27;order&#x27;</span>).<span class="title function_">where</span>(<span class="string">&#x27;_id==&quot;1&quot;&#x27;</span>).<span class="title function_">getTemp</span>() <span class="comment">// 注意结尾的方法是getTemp，对order表过滤得到临时表</span></span><br><span class="line"><span class="keyword">const</span> res = <span class="keyword">await</span> db.<span class="title function_">collection</span>(order, <span class="string">&#x27;book&#x27;</span>).<span class="title function_">get</span>() <span class="comment">// 将获取的order表的临时表和book表进行联表查询</span></span><br><span class="line"></span><br><span class="line">第二种比较好</span><br><span class="line"></span><br><span class="line"><span class="comment">// 客户端联表查询</span></span><br><span class="line"><span class="keyword">const</span> db = uniCloud.<span class="title function_">database</span>()</span><br><span class="line"><span class="keyword">const</span> order = db.<span class="title function_">collection</span>(<span class="string">&#x27;order&#x27;</span>).<span class="title function_">field</span>(<span class="string">&#x27;book_id,quantity&#x27;</span>).<span class="title function_">getTemp</span>() <span class="comment">// 临时表field方法内需要包含关联字段，否则无法建立关联关系</span></span><br><span class="line"><span class="keyword">const</span> book = db.<span class="title function_">collection</span>(<span class="string">&#x27;book&#x27;</span>).<span class="title function_">field</span>(<span class="string">&#x27;_id,title,author&#x27;</span>).<span class="title function_">getTemp</span>() <span class="comment">// 临时表field方法内需要包含关联字段，否则无法建立关联关系</span></span><br><span class="line">db.<span class="title function_">collection</span>(order, book) <span class="comment">// 注意collection方法内需要传入所有用到的表名，用逗号分隔，主表需要放在第一位</span></span><br><span class="line">  .<span class="title function_">where</span>(<span class="string">&#x27;book_id.title == &quot;三国演义&quot;&#x27;</span>) <span class="comment">// 查询order表内书名为“三国演义”的订单</span></span><br><span class="line">  .<span class="title function_">get</span>()</span><br><span class="line">  .<span class="title function_">then</span>(<span class="function"><span class="params">res</span> =&gt;</span> &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(res);</span><br><span class="line">  &#125;).<span class="title function_">catch</span>(<span class="function"><span class="params">err</span> =&gt;</span> &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">error</span>(err)</span><br><span class="line">  &#125;)</span><br><span class="line"></span><br><span class="line"><span class="comment">// 直接使用虚拟联表查询</span></span><br><span class="line"><span class="keyword">const</span> res = <span class="keyword">await</span> db.<span class="title function_">collection</span>(<span class="string">&#x27;article,comment&#x27;</span>)</span><br><span class="line">.<span class="title function_">where</span>(<span class="string">&#x27;article_id._value==&quot;1&quot;&#x27;</span>)</span><br><span class="line">.<span class="title function_">get</span>()</span><br><span class="line"></span><br><span class="line"><span class="comment">// 先过滤article表，再获取虚拟联表联表获取评论</span></span><br><span class="line"><span class="keyword">const</span> article = db.<span class="title function_">collection</span>(<span class="string">&#x27;article&#x27;</span>).<span class="title function_">where</span>(<span class="string">&#x27;article_id==&quot;1&quot;&#x27;</span>).<span class="title function_">getTemp</span>() <span class="comment">// 注意是getTemp不是get</span></span><br><span class="line"><span class="keyword">const</span> res = <span class="keyword">await</span> db.<span class="title function_">collection</span>(article, <span class="string">&#x27;comment&#x27;</span>).<span class="title function_">get</span>()</span><br></pre></td></tr></table></figure>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> db = uniCloud.<span class="title function_">database</span>()</span><br><span class="line">db.<span class="title function_">collection</span>(<span class="string">&#x27;book&#x27;</span>)</span><br><span class="line">  .<span class="title function_">where</span>(<span class="string">&#x27;status == &quot;onsale&quot;&#x27;</span>)</span><br><span class="line">  .<span class="title function_">skip</span>(<span class="number">20</span>) <span class="comment">// 跳过前20条</span></span><br><span class="line">  .<span class="title function_">limit</span>(<span class="number">20</span>) <span class="comment">// 获取20条</span></span><br><span class="line">  .<span class="title function_">get</span>()</span><br><span class="line">  </span><br><span class="line"><span class="comment">// 上述用法对应的分页条件为：每页20条取第2页</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">db.<span class="title function_">collection</span>(<span class="string">&#x27;order&#x27;</span>).<span class="title function_">count</span>()</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> db = uniCloud.<span class="title function_">database</span>()</span><br><span class="line">  db.<span class="title function_">collection</span>(<span class="string">&#x27;order&#x27;</span>)</span><br><span class="line">    .<span class="title function_">get</span>(&#123;</span><br><span class="line">      <span class="attr">getCount</span>:<span class="literal">true</span></span><br><span class="line">    &#125;)</span><br><span class="line">    .<span class="title function_">then</span>(<span class="function"><span class="params">res</span> =&gt;</span> &#123;</span><br><span class="line">      <span class="variable language_">console</span>.<span class="title function_">log</span>(res);</span><br><span class="line">    &#125;).<span class="title function_">catch</span>(<span class="function"><span class="params">err</span> =&gt;</span> &#123;</span><br><span class="line">      <span class="variable language_">console</span>.<span class="title function_">error</span>(err)</span><br><span class="line">    &#125;)</span><br></pre></td></tr></table></figure>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> bannerQuery = db.<span class="title function_">collection</span>(<span class="string">&#x27;banner&#x27;</span>).<span class="title function_">field</span>(<span class="string">&#x27;url,image&#x27;</span>).<span class="title function_">getTemp</span>() <span class="comment">// 这里使用getTemp不直接发送get请求，等到multiSend时再发送</span></span><br><span class="line"><span class="keyword">const</span> noticeQuery = db.<span class="title function_">collection</span>(<span class="string">&#x27;notice&#x27;</span>).<span class="title function_">field</span>(<span class="string">&#x27;text,url,level&#x27;</span>).<span class="title function_">getTemp</span>()</span><br><span class="line"><span class="keyword">const</span> res = <span class="keyword">await</span> db.<span class="title function_">multiSend</span>(bannerQuery,noticeQuery)</span><br></pre></td></tr></table></figure>
+    <title>eric汉化</title>
+    <url>/2023/06/24/eric%E6%B1%89%E5%8C%96/</url>
+    <content><![CDATA[<head>
+  <meta charset="utf-8">
+  <meta name="referrer" content="no-referrer" />
+  <title>某eric汉化</title>
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><p>网上的一堆教程真是够垃圾，复杂而又无效，明明是简单的事情，偏偏要搞得那么复杂。<br>
+话不多说，简单技巧如下：</p>
+<p><img src="https://img-blog.csdnimg.cn/20190608221440279.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>首先<br>
+下载图片相关汉化包，<br>
+其次<br>
+放在其都是.qm的文件夹，如下图所示<br>
+汉化成功!<br>
+<br>
+<img src="https://img-blog.csdnimg.cn/20201005223233514.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70#pic_center" alt=""><img src="https://img-blog.csdnimg.cn/20190608221850982.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>
+附上成功界面<img src="https://img-blog.csdnimg.cn/20190608221935696.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+</div>
+</body>
+
+
 ]]></content>
-      <tags>
-        <tag>unicloud</tag>
-        <tag>常用查表</tag>
-      </tags>
   </entry>
   <entry>
     <title>docker常用命令</title>
@@ -440,6 +318,128 @@
       <tags>
         <tag>基础</tag>
         <tag>docker常用</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Git常用命令</title>
+    <url>/2023/06/20/gitcomend/</url>
+    <content><![CDATA[<table>
+<thead>
+<tr>
+<th>目的</th>
+<th>GIT命令</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>第一次初始化仓库</td>
+<td><code>git init</code><br><code>git add .</code><br><code>git commit -m [描述字体，例如 &quot;first commit &quot;]</code><br><code>git remote add origin [仓库地址]</code><br><code>git push -u origin [分支名称，一般第一次有默认的master]</code></td>
+</tr>
+<tr>
+<td>拉取远程分支到本地</td>
+<td><code>git fetch origin [分支名称]</code></td>
+</tr>
+<tr>
+<td>提送到git</td>
+<td><code>git push origin [分支名称]</code></td>
+</tr>
+<tr>
+<td>删除本地分支</td>
+<td><code>git branch -d [分支的名称]</code></td>
+</tr>
+<tr>
+<td>删除远程分支</td>
+<td><code>git push origin --delete [分支的名称]</code></td>
+</tr>
+<tr>
+<td>查看远程分支与本地分支</td>
+<td><code>git branch -a</code></td>
+</tr>
+<tr>
+<td>合并分支</td>
+<td><code>git pull origin [目标分支]</code><br><code>git merge [被合分支]</code><br><code>git push origin [目标分支]</code></td>
+</tr>
+<tr>
+<td>更新远程分支列表</td>
+<td><code>git remote update origin --prune</code></td>
+</tr>
+<tr>
+<td>查看所有分支</td>
+<td><code>git branch -a</code></td>
+</tr>
+<tr>
+<td>撤销提交</td>
+<td><code>git reset --soft [HEAD^ | HEAD~1 | HEAD ~&lt;n&gt;]</code></td>
+</tr>
+<tr>
+<td>创建本地分支</td>
+<td><code>git branch [分支名称]</code></td>
+</tr>
+<tr>
+<td>切换分支</td>
+<td><code>git checkout [分支名称]</code></td>
+</tr>
+<tr>
+<td>创建并切换到创建的分支</td>
+<td><code>git checkout -b [分支名称]</code></td>
+</tr>
+<tr>
+<td>根据已有的远程分支创建新的分支</td>
+<td><code>git checkout -b [创建的分支名] origin/[远程的分支名称]</code></td>
+</tr>
+<tr>
+<td>删除分支</td>
+<td><code>git branch -d [分支名称]</code></td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Git常用命令</category>
+      </categories>
+      <tags>
+        <tag>基础</tag>
+        <tag>Git常用</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>lodash常用函数</title>
+    <url>/2023/06/24/lodash/</url>
+    <content><![CDATA[<p><a name="dOB5s"></a></p>
+<h3 id="1-去虚函数"><a href="#1-去虚函数" class="headerlink" title="1.去虚函数"></a>1.去虚函数</h3><figure class="highlight typescript"><table><tr><td class="code"><pre><span class="line">_.<span class="title function_">compact</span>([<span class="number">0</span>, <span class="number">1</span>, <span class="literal">false</span>, <span class="number">2</span>, <span class="string">&#x27;&#x27;</span>, <span class="number">3</span>]);<span class="comment">// =&gt; [1, 2, 3]</span></span><br></pre></td></tr></table></figure>
+<p><a name="FtVzU"></a></p>
+<h3 id="2-分组"><a href="#2-分组" class="headerlink" title="2.分组"></a>2.分组</h3><figure class="highlight typescript"><table><tr><td class="code"><pre><span class="line">_.<span class="title function_">chunk</span>([<span class="string">&#x27;a&#x27;</span>, <span class="string">&#x27;b&#x27;</span>, <span class="string">&#x27;c&#x27;</span>, <span class="string">&#x27;d&#x27;</span>], <span class="number">2</span>);<span class="comment">// =&gt; [[&#x27;a&#x27;, &#x27;b&#x27;], [&#x27;c&#x27;, &#x27;d&#x27;]]</span></span><br><span class="line"></span><br><span class="line">_.<span class="title function_">chunk</span>([<span class="string">&#x27;a&#x27;</span>, <span class="string">&#x27;b&#x27;</span>, <span class="string">&#x27;c&#x27;</span>, <span class="string">&#x27;d&#x27;</span>], <span class="number">3</span>);</span><br><span class="line"><span class="comment">// =&gt; [[&#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;], [&#x27;d&#x27;]]</span></span><br></pre></td></tr></table></figure>
+<p><a name="v3C2P"></a></p>
+<h3 id="3-连接"><a href="#3-连接" class="headerlink" title="3.连接"></a>3.连接</h3><figure class="highlight typescript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> array = [<span class="number">1</span>];</span><br><span class="line"><span class="keyword">var</span> other = _.<span class="title function_">concat</span>(array, <span class="number">2</span>, [<span class="number">3</span>], [[<span class="number">4</span>]]);</span><br><span class="line"></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(other);</span><br><span class="line"><span class="comment">// =&gt; [1, 2, 3, [4]]</span></span><br><span class="line"></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(array);</span><br><span class="line"><span class="comment">// =&gt; [1]</span></span><br></pre></td></tr></table></figure>
+<p><a name="Kjn9J"></a></p>
+<h3 id="4-限制字符串长度，超出用”…“表示"><a href="#4-限制字符串长度，超出用”…“表示" class="headerlink" title="4.限制字符串长度，超出用”…“表示"></a>4.限制字符串长度，超出用”…“表示</h3><figure class="highlight typescript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> a=<span class="string">&quot;aaaadfdfdfdf&quot;</span></span><br><span class="line"><span class="keyword">let</span> b=<span class="title function_">truncate</span>(a,&#123;<span class="attr">length</span>:(<span class="number">8</span>+<span class="number">3</span>)&#125;) <span class="comment">// 默认为&quot;...&quot;,加3是因为三个点也包括在里面</span></span><br><span class="line"><span class="keyword">let</span> b=<span class="title function_">truncate</span>(a,&#123;<span class="attr">length</span>:(<span class="number">8</span>+<span class="number">3</span>),<span class="attr">omission</span>: <span class="string">&#x27;&gt;&gt;&gt;&#x27;</span>&#125;) <span class="comment">// </span></span><br></pre></td></tr></table></figure>
+<p><a name="SMd0x"></a></p>
+<h3 id="5-数组相减"><a href="#5-数组相减" class="headerlink" title="5.数组相减"></a>5.数组相减</h3><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">result=_.<span class="title function_">difference</span>([<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>],[<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>])   <span class="comment">// [1]</span></span><br></pre></td></tr></table></figure>
+<p><a name="G2KFy"></a></p>
+<h3 id="工作实际用到过"><a href="#工作实际用到过" class="headerlink" title="工作实际用到过"></a>工作实际用到过</h3><p><a name="QmMQ2"></a></p>
+<h4 id="1-map与pick-x2F-omit的结合"><a href="#1-map与pick-x2F-omit的结合" class="headerlink" title="1.map与pick&#x2F;omit的结合"></a>1.map与pick&#x2F;omit的结合</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123;map, pick, omit&#125; <span class="keyword">from</span> <span class="string">&quot;lodash&quot;</span></span><br><span class="line"><span class="comment">// 提取Name与Num</span></span><br><span class="line"><span class="keyword">let</span> interData = <span class="title function_">map</span>(takeCreateData, <span class="function"><span class="params">o</span> =&gt;</span> <span class="title function_">pick</span>(o, [<span class="string">&#x27;Name&#x27;</span>, <span class="string">&quot;Num&quot;</span>]))</span><br><span class="line"><span class="comment">// 剔除Name与Num</span></span><br><span class="line"><span class="keyword">let</span> outterData = <span class="title function_">map</span>(takeCreateData, <span class="function"><span class="params">o</span> =&gt;</span> <span class="title function_">omit</span>(o, [<span class="string">&#x27;Name&#x27;</span>, <span class="string">&quot;Num&quot;</span>]))</span><br></pre></td></tr></table></figure>
+<p><a name="lcXvK"></a></p>
+<h4 id="2-去重-isEqual-uniqWith，uniq"><a href="#2-去重-isEqual-uniqWith，uniq" class="headerlink" title="2.去重 isEqual, uniqWith，uniq"></a>2.去重 isEqual, uniqWith，uniq</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123;unip, uniqWith, isEqual&#125; <span class="keyword">from</span> <span class="string">&quot;lodash&quot;</span></span><br><span class="line"><span class="comment">// 纯数组 例如[1,1,2,3,4,4,5]</span></span><br><span class="line"><span class="keyword">let</span> arr1 = <span class="title function_">uniq</span>(arr) <span class="comment">// [1,2,3,4,5]</span></span><br><span class="line"><span class="comment">// 对象数组 例如 [&#123;a:1,b:2&#125;,&#123;a:1,b:2&#125;,&#123;a:1,b:3&#125;] </span></span><br><span class="line"><span class="keyword">let</span> arr2 = <span class="title function_">uniqWith</span>(arr_, isEqual) <span class="comment">// [&#123;a:1,b:2&#125;,&#123;a:1,b:3&#125;]</span></span><br></pre></td></tr></table></figure>
+<p><a name="Ue52a"></a></p>
+<h4 id="3-排序orderby"><a href="#3-排序orderby" class="headerlink" title="3.排序orderby"></a>3.排序orderby</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123; orderBy &#125; <span class="keyword">from</span> <span class="string">&quot;lodash&quot;</span></span><br><span class="line"><span class="comment">/** 根据对象数组里面某个键的值来重新排序，desc 降序,asc升序,</span></span><br><span class="line"><span class="comment"> ** 例如[&#123;a:1,b:2&#125;,&#123;a:2,b:3&#125;]   </span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line">targetData = <span class="title function_">orderBy</span>(targetData, [<span class="string">&quot;a&quot;</span>], [<span class="string">&quot;desc&quot;</span>])</span><br><span class="line"></span><br><span class="line"><span class="comment">// 字符串排序</span></span><br><span class="line"><span class="title function_">sortBy</span>(value,[<span class="keyword">function</span>(<span class="params">o</span>) &#123; <span class="keyword">return</span> o; &#125;]);</span><br></pre></td></tr></table></figure>
+<p><a name="u25Pt"></a></p>
+<h4 id="4-数组相减，lodash-没有找到的，有替代方法，待找"><a href="#4-数组相减，lodash-没有找到的，有替代方法，待找" class="headerlink" title="4.数组相减，lodash 没有找到的，有替代方法，待找"></a>4.数组相减，lodash 没有找到的，有替代方法，待找</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">let</span> ids=[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>]</span><br><span class="line"><span class="keyword">let</span> unids = [<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>]</span><br><span class="line"><span class="comment">// let needids = ids.filter(el =&gt; !unids.includes(el)) //[1,2,3]</span></span><br><span class="line"><span class="keyword">let</span> needids = ids.<span class="title function_">filter</span>(<span class="function"><span class="params">el</span> =&gt;</span> !pids.<span class="title function_">find</span>(<span class="function"><span class="params">pid</span> =&gt;</span> pid === el))</span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>lodash</tag>
+        <tag>常用</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>unicloud 常用查表</title>
+    <url>/2023/06/24/unicloud%20%E5%B8%B8%E7%94%A8%E6%9F%A5%E8%A1%A8/</url>
+    <content><![CDATA[<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 直接关联多个表为虚拟联表再进行查询，旧写法，目前更推荐使用getTemp进行联表查询</span></span><br><span class="line"><span class="keyword">const</span> res = <span class="keyword">await</span> db.<span class="title function_">collection</span>(<span class="string">&#x27;order,book&#x27;</span>).<span class="title function_">where</span>(<span class="string">&#x27;_id==&quot;1&quot;&#x27;</span>).<span class="title function_">get</span>() <span class="comment">// 直接关联order和book之后再过滤</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 使用getTemp先过滤处理获取临时表再联表查询，推荐用法</span></span><br><span class="line"><span class="keyword">const</span> order = db.<span class="title function_">collection</span>(<span class="string">&#x27;order&#x27;</span>).<span class="title function_">where</span>(<span class="string">&#x27;_id==&quot;1&quot;&#x27;</span>).<span class="title function_">getTemp</span>() <span class="comment">// 注意结尾的方法是getTemp，对order表过滤得到临时表</span></span><br><span class="line"><span class="keyword">const</span> res = <span class="keyword">await</span> db.<span class="title function_">collection</span>(order, <span class="string">&#x27;book&#x27;</span>).<span class="title function_">get</span>() <span class="comment">// 将获取的order表的临时表和book表进行联表查询</span></span><br><span class="line"></span><br><span class="line">第二种比较好</span><br><span class="line"></span><br><span class="line"><span class="comment">// 客户端联表查询</span></span><br><span class="line"><span class="keyword">const</span> db = uniCloud.<span class="title function_">database</span>()</span><br><span class="line"><span class="keyword">const</span> order = db.<span class="title function_">collection</span>(<span class="string">&#x27;order&#x27;</span>).<span class="title function_">field</span>(<span class="string">&#x27;book_id,quantity&#x27;</span>).<span class="title function_">getTemp</span>() <span class="comment">// 临时表field方法内需要包含关联字段，否则无法建立关联关系</span></span><br><span class="line"><span class="keyword">const</span> book = db.<span class="title function_">collection</span>(<span class="string">&#x27;book&#x27;</span>).<span class="title function_">field</span>(<span class="string">&#x27;_id,title,author&#x27;</span>).<span class="title function_">getTemp</span>() <span class="comment">// 临时表field方法内需要包含关联字段，否则无法建立关联关系</span></span><br><span class="line">db.<span class="title function_">collection</span>(order, book) <span class="comment">// 注意collection方法内需要传入所有用到的表名，用逗号分隔，主表需要放在第一位</span></span><br><span class="line">  .<span class="title function_">where</span>(<span class="string">&#x27;book_id.title == &quot;三国演义&quot;&#x27;</span>) <span class="comment">// 查询order表内书名为“三国演义”的订单</span></span><br><span class="line">  .<span class="title function_">get</span>()</span><br><span class="line">  .<span class="title function_">then</span>(<span class="function"><span class="params">res</span> =&gt;</span> &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(res);</span><br><span class="line">  &#125;).<span class="title function_">catch</span>(<span class="function"><span class="params">err</span> =&gt;</span> &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">error</span>(err)</span><br><span class="line">  &#125;)</span><br><span class="line"></span><br><span class="line"><span class="comment">// 直接使用虚拟联表查询</span></span><br><span class="line"><span class="keyword">const</span> res = <span class="keyword">await</span> db.<span class="title function_">collection</span>(<span class="string">&#x27;article,comment&#x27;</span>)</span><br><span class="line">.<span class="title function_">where</span>(<span class="string">&#x27;article_id._value==&quot;1&quot;&#x27;</span>)</span><br><span class="line">.<span class="title function_">get</span>()</span><br><span class="line"></span><br><span class="line"><span class="comment">// 先过滤article表，再获取虚拟联表联表获取评论</span></span><br><span class="line"><span class="keyword">const</span> article = db.<span class="title function_">collection</span>(<span class="string">&#x27;article&#x27;</span>).<span class="title function_">where</span>(<span class="string">&#x27;article_id==&quot;1&quot;&#x27;</span>).<span class="title function_">getTemp</span>() <span class="comment">// 注意是getTemp不是get</span></span><br><span class="line"><span class="keyword">const</span> res = <span class="keyword">await</span> db.<span class="title function_">collection</span>(article, <span class="string">&#x27;comment&#x27;</span>).<span class="title function_">get</span>()</span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> db = uniCloud.<span class="title function_">database</span>()</span><br><span class="line">db.<span class="title function_">collection</span>(<span class="string">&#x27;book&#x27;</span>)</span><br><span class="line">  .<span class="title function_">where</span>(<span class="string">&#x27;status == &quot;onsale&quot;&#x27;</span>)</span><br><span class="line">  .<span class="title function_">skip</span>(<span class="number">20</span>) <span class="comment">// 跳过前20条</span></span><br><span class="line">  .<span class="title function_">limit</span>(<span class="number">20</span>) <span class="comment">// 获取20条</span></span><br><span class="line">  .<span class="title function_">get</span>()</span><br><span class="line">  </span><br><span class="line"><span class="comment">// 上述用法对应的分页条件为：每页20条取第2页</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">db.<span class="title function_">collection</span>(<span class="string">&#x27;order&#x27;</span>).<span class="title function_">count</span>()</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> db = uniCloud.<span class="title function_">database</span>()</span><br><span class="line">  db.<span class="title function_">collection</span>(<span class="string">&#x27;order&#x27;</span>)</span><br><span class="line">    .<span class="title function_">get</span>(&#123;</span><br><span class="line">      <span class="attr">getCount</span>:<span class="literal">true</span></span><br><span class="line">    &#125;)</span><br><span class="line">    .<span class="title function_">then</span>(<span class="function"><span class="params">res</span> =&gt;</span> &#123;</span><br><span class="line">      <span class="variable language_">console</span>.<span class="title function_">log</span>(res);</span><br><span class="line">    &#125;).<span class="title function_">catch</span>(<span class="function"><span class="params">err</span> =&gt;</span> &#123;</span><br><span class="line">      <span class="variable language_">console</span>.<span class="title function_">error</span>(err)</span><br><span class="line">    &#125;)</span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> bannerQuery = db.<span class="title function_">collection</span>(<span class="string">&#x27;banner&#x27;</span>).<span class="title function_">field</span>(<span class="string">&#x27;url,image&#x27;</span>).<span class="title function_">getTemp</span>() <span class="comment">// 这里使用getTemp不直接发送get请求，等到multiSend时再发送</span></span><br><span class="line"><span class="keyword">const</span> noticeQuery = db.<span class="title function_">collection</span>(<span class="string">&#x27;notice&#x27;</span>).<span class="title function_">field</span>(<span class="string">&#x27;text,url,level&#x27;</span>).<span class="title function_">getTemp</span>()</span><br><span class="line"><span class="keyword">const</span> res = <span class="keyword">await</span> db.<span class="title function_">multiSend</span>(bannerQuery,noticeQuery)</span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>unicloud</tag>
+        <tag>常用查表</tag>
       </tags>
   </entry>
   <entry>
