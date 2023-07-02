@@ -61,6 +61,62 @@
       </tags>
   </entry>
   <entry>
+    <title>Ubuntu 16 双显卡安装教程</title>
+    <url>/2023/06/24/Ubuntu%2016%20%E5%8F%8C%E6%98%BE%E5%8D%A1%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="referrer" content="no-referrer" />
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <title>Ubuntu 16 双显卡安装教程</title>
+  <!-- <link rel="stylesheet" href="https://stackedit.io/style.css" /> -->
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><p>整整安装了两天半,<br>
+早上九点多到晚上十二点多,<br>
+一直尝试了很多方法,<br>
+重装两次系统.<br>
+网上的教程把我给坑地明明白白,<br>
+教程五花八门,看得我眼花缭乱,<br>
+终于,老天有眼,<br>
+在下午一点多的时候,<br>
+终于搞定,<br>
+如图你是16系统,你还是装为18或者19 的系统吧,<br>
+因为bug真的很多<br>
+教程如下:</p>
+<ol>
+<li>更换系统,改为19的,18应该也可以</li>
+<li>打开软件与更新,</li>
+<li>选择下面的图片第二项,(第一项我试过了,也成功,不过有bug,显示不正常,还是用390吧)</li>
+<li>应用更改,<br>
+待会弹出一个窗口,会让你设置密码,两次密码要输入一样<br>
+<img src="https://img-blog.csdnimg.cn/20190726141412819.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></li>
+</ol>
+<p>4.重启系统,之后会蓝屏(蓝屏是正常的),按任意键,选择第二个选项,回车,直到跳出一个输入框,输入你刚刚设置的密码,回车,重启,</p>
+<p>5.进入系统,打开系统详情信息,可以看到"图像"已经是MK150显卡,完美,<br>
+<img src="https://img-blog.csdnimg.cn/20190726142312140.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>
+打开NVIDIA X Server Settings ,可以看到成功画面如下,不然,就是你操作不当失败了<br>
+<img src="https://img-blog.csdnimg.cn/20190726142244375.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h2><a id="_26"></a>最后,我想说,网上的一些教程真是</h2>
+<h2><a id="_27"></a>辣鸡辣鸡辣鸡辣鸡!!!</h2>
+</div>
+</body>
+
+</html>
+]]></content>
+      <categories>
+        <category>Ubuntu</category>
+        <category>双显卡安装教程</category>
+      </categories>
+      <tags>
+        <tag>Ubuntu 16</tag>
+        <tag>双显卡安装教程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>来自用户chinyan的文章</title>
     <url>/2023/06/23/chin/</url>
     <content><![CDATA[<h2 id="开始之前的准备"><a href="#开始之前的准备" class="headerlink" title="开始之前的准备"></a><a href="#" title="开始之前的准备"></a>开始之前的准备</h2><h3 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a><a href="#" title="环境准备"></a>环境准备</h3><p>在开始前要确保本地已经安装好了<a href="https://git-scm.com/downloads">git</a>和稳定版本的<a href="https://nodejs.org/en/">node.js</a> ，安装和配置的方式在这里就不再复述，相信这个对大家来讲都不是什么大问题。</p>
@@ -139,62 +195,6 @@
 <p>解决<br>如果 <code>hexo d</code> 后 <code>ERROR Deployer not found: git</code></p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">\<span class="comment"># 安装  </span></span><br><span class="line">npm install --save hexo-deployer-git​  </span><br></pre></td></tr></table></figure>
 ]]></content>
-  </entry>
-  <entry>
-    <title>Ubuntu 16 双显卡安装教程</title>
-    <url>/2023/06/24/Ubuntu%2016%20%E5%8F%8C%E6%98%BE%E5%8D%A1%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[<!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <meta name="referrer" content="no-referrer" />
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-  <title>Ubuntu 16 双显卡安装教程</title>
-  <!-- <link rel="stylesheet" href="https://stackedit.io/style.css" /> -->
-</head>
-
-<body class="stackedit">
-  <div class="stackedit__html"><p>整整安装了两天半,<br>
-早上九点多到晚上十二点多,<br>
-一直尝试了很多方法,<br>
-重装两次系统.<br>
-网上的教程把我给坑地明明白白,<br>
-教程五花八门,看得我眼花缭乱,<br>
-终于,老天有眼,<br>
-在下午一点多的时候,<br>
-终于搞定,<br>
-如图你是16系统,你还是装为18或者19 的系统吧,<br>
-因为bug真的很多<br>
-教程如下:</p>
-<ol>
-<li>更换系统,改为19的,18应该也可以</li>
-<li>打开软件与更新,</li>
-<li>选择下面的图片第二项,(第一项我试过了,也成功,不过有bug,显示不正常,还是用390吧)</li>
-<li>应用更改,<br>
-待会弹出一个窗口,会让你设置密码,两次密码要输入一样<br>
-<img src="https://img-blog.csdnimg.cn/20190726141412819.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></li>
-</ol>
-<p>4.重启系统,之后会蓝屏(蓝屏是正常的),按任意键,选择第二个选项,回车,直到跳出一个输入框,输入你刚刚设置的密码,回车,重启,</p>
-<p>5.进入系统,打开系统详情信息,可以看到"图像"已经是MK150显卡,完美,<br>
-<img src="https://img-blog.csdnimg.cn/20190726142312140.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>
-打开NVIDIA X Server Settings ,可以看到成功画面如下,不然,就是你操作不当失败了<br>
-<img src="https://img-blog.csdnimg.cn/20190726142244375.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h2><a id="_26"></a>最后,我想说,网上的一些教程真是</h2>
-<h2><a id="_27"></a>辣鸡辣鸡辣鸡辣鸡!!!</h2>
-</div>
-</body>
-
-</html>
-]]></content>
-      <categories>
-        <category>Ubuntu</category>
-        <category>双显卡安装教程</category>
-      </categories>
-      <tags>
-        <tag>Ubuntu 16</tag>
-        <tag>双显卡安装教程</tag>
-      </tags>
   </entry>
   <entry>
     <title>docker常用命令</title>
@@ -402,6 +402,19 @@
       </tags>
   </entry>
   <entry>
+    <title>unicloud 常用查表</title>
+    <url>/2023/06/24/unicloud%20%E5%B8%B8%E7%94%A8%E6%9F%A5%E8%A1%A8/</url>
+    <content><![CDATA[<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 直接关联多个表为虚拟联表再进行查询，旧写法，目前更推荐使用getTemp进行联表查询</span></span><br><span class="line"><span class="keyword">const</span> res = <span class="keyword">await</span> db.<span class="title function_">collection</span>(<span class="string">&#x27;order,book&#x27;</span>).<span class="title function_">where</span>(<span class="string">&#x27;_id==&quot;1&quot;&#x27;</span>).<span class="title function_">get</span>() <span class="comment">// 直接关联order和book之后再过滤</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 使用getTemp先过滤处理获取临时表再联表查询，推荐用法</span></span><br><span class="line"><span class="keyword">const</span> order = db.<span class="title function_">collection</span>(<span class="string">&#x27;order&#x27;</span>).<span class="title function_">where</span>(<span class="string">&#x27;_id==&quot;1&quot;&#x27;</span>).<span class="title function_">getTemp</span>() <span class="comment">// 注意结尾的方法是getTemp，对order表过滤得到临时表</span></span><br><span class="line"><span class="keyword">const</span> res = <span class="keyword">await</span> db.<span class="title function_">collection</span>(order, <span class="string">&#x27;book&#x27;</span>).<span class="title function_">get</span>() <span class="comment">// 将获取的order表的临时表和book表进行联表查询</span></span><br><span class="line"></span><br><span class="line">第二种比较好</span><br><span class="line"></span><br><span class="line"><span class="comment">// 客户端联表查询</span></span><br><span class="line"><span class="keyword">const</span> db = uniCloud.<span class="title function_">database</span>()</span><br><span class="line"><span class="keyword">const</span> order = db.<span class="title function_">collection</span>(<span class="string">&#x27;order&#x27;</span>).<span class="title function_">field</span>(<span class="string">&#x27;book_id,quantity&#x27;</span>).<span class="title function_">getTemp</span>() <span class="comment">// 临时表field方法内需要包含关联字段，否则无法建立关联关系</span></span><br><span class="line"><span class="keyword">const</span> book = db.<span class="title function_">collection</span>(<span class="string">&#x27;book&#x27;</span>).<span class="title function_">field</span>(<span class="string">&#x27;_id,title,author&#x27;</span>).<span class="title function_">getTemp</span>() <span class="comment">// 临时表field方法内需要包含关联字段，否则无法建立关联关系</span></span><br><span class="line">db.<span class="title function_">collection</span>(order, book) <span class="comment">// 注意collection方法内需要传入所有用到的表名，用逗号分隔，主表需要放在第一位</span></span><br><span class="line">  .<span class="title function_">where</span>(<span class="string">&#x27;book_id.title == &quot;三国演义&quot;&#x27;</span>) <span class="comment">// 查询order表内书名为“三国演义”的订单</span></span><br><span class="line">  .<span class="title function_">get</span>()</span><br><span class="line">  .<span class="title function_">then</span>(<span class="function"><span class="params">res</span> =&gt;</span> &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(res);</span><br><span class="line">  &#125;).<span class="title function_">catch</span>(<span class="function"><span class="params">err</span> =&gt;</span> &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">error</span>(err)</span><br><span class="line">  &#125;)</span><br><span class="line"></span><br><span class="line"><span class="comment">// 直接使用虚拟联表查询</span></span><br><span class="line"><span class="keyword">const</span> res = <span class="keyword">await</span> db.<span class="title function_">collection</span>(<span class="string">&#x27;article,comment&#x27;</span>)</span><br><span class="line">.<span class="title function_">where</span>(<span class="string">&#x27;article_id._value==&quot;1&quot;&#x27;</span>)</span><br><span class="line">.<span class="title function_">get</span>()</span><br><span class="line"></span><br><span class="line"><span class="comment">// 先过滤article表，再获取虚拟联表联表获取评论</span></span><br><span class="line"><span class="keyword">const</span> article = db.<span class="title function_">collection</span>(<span class="string">&#x27;article&#x27;</span>).<span class="title function_">where</span>(<span class="string">&#x27;article_id==&quot;1&quot;&#x27;</span>).<span class="title function_">getTemp</span>() <span class="comment">// 注意是getTemp不是get</span></span><br><span class="line"><span class="keyword">const</span> res = <span class="keyword">await</span> db.<span class="title function_">collection</span>(article, <span class="string">&#x27;comment&#x27;</span>).<span class="title function_">get</span>()</span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> db = uniCloud.<span class="title function_">database</span>()</span><br><span class="line">db.<span class="title function_">collection</span>(<span class="string">&#x27;book&#x27;</span>)</span><br><span class="line">  .<span class="title function_">where</span>(<span class="string">&#x27;status == &quot;onsale&quot;&#x27;</span>)</span><br><span class="line">  .<span class="title function_">skip</span>(<span class="number">20</span>) <span class="comment">// 跳过前20条</span></span><br><span class="line">  .<span class="title function_">limit</span>(<span class="number">20</span>) <span class="comment">// 获取20条</span></span><br><span class="line">  .<span class="title function_">get</span>()</span><br><span class="line">  </span><br><span class="line"><span class="comment">// 上述用法对应的分页条件为：每页20条取第2页</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">db.<span class="title function_">collection</span>(<span class="string">&#x27;order&#x27;</span>).<span class="title function_">count</span>()</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> db = uniCloud.<span class="title function_">database</span>()</span><br><span class="line">  db.<span class="title function_">collection</span>(<span class="string">&#x27;order&#x27;</span>)</span><br><span class="line">    .<span class="title function_">get</span>(&#123;</span><br><span class="line">      <span class="attr">getCount</span>:<span class="literal">true</span></span><br><span class="line">    &#125;)</span><br><span class="line">    .<span class="title function_">then</span>(<span class="function"><span class="params">res</span> =&gt;</span> &#123;</span><br><span class="line">      <span class="variable language_">console</span>.<span class="title function_">log</span>(res);</span><br><span class="line">    &#125;).<span class="title function_">catch</span>(<span class="function"><span class="params">err</span> =&gt;</span> &#123;</span><br><span class="line">      <span class="variable language_">console</span>.<span class="title function_">error</span>(err)</span><br><span class="line">    &#125;)</span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> bannerQuery = db.<span class="title function_">collection</span>(<span class="string">&#x27;banner&#x27;</span>).<span class="title function_">field</span>(<span class="string">&#x27;url,image&#x27;</span>).<span class="title function_">getTemp</span>() <span class="comment">// 这里使用getTemp不直接发送get请求，等到multiSend时再发送</span></span><br><span class="line"><span class="keyword">const</span> noticeQuery = db.<span class="title function_">collection</span>(<span class="string">&#x27;notice&#x27;</span>).<span class="title function_">field</span>(<span class="string">&#x27;text,url,level&#x27;</span>).<span class="title function_">getTemp</span>()</span><br><span class="line"><span class="keyword">const</span> res = <span class="keyword">await</span> db.<span class="title function_">multiSend</span>(bannerQuery,noticeQuery)</span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>unicloud</tag>
+        <tag>常用查表</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>lodash常用函数</title>
     <url>/2023/06/24/lodash/</url>
     <content><![CDATA[<p><a name="dOB5s"></a></p>
@@ -427,19 +440,6 @@
       <tags>
         <tag>lodash</tag>
         <tag>常用</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>unicloud 常用查表</title>
-    <url>/2023/06/24/unicloud%20%E5%B8%B8%E7%94%A8%E6%9F%A5%E8%A1%A8/</url>
-    <content><![CDATA[<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 直接关联多个表为虚拟联表再进行查询，旧写法，目前更推荐使用getTemp进行联表查询</span></span><br><span class="line"><span class="keyword">const</span> res = <span class="keyword">await</span> db.<span class="title function_">collection</span>(<span class="string">&#x27;order,book&#x27;</span>).<span class="title function_">where</span>(<span class="string">&#x27;_id==&quot;1&quot;&#x27;</span>).<span class="title function_">get</span>() <span class="comment">// 直接关联order和book之后再过滤</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 使用getTemp先过滤处理获取临时表再联表查询，推荐用法</span></span><br><span class="line"><span class="keyword">const</span> order = db.<span class="title function_">collection</span>(<span class="string">&#x27;order&#x27;</span>).<span class="title function_">where</span>(<span class="string">&#x27;_id==&quot;1&quot;&#x27;</span>).<span class="title function_">getTemp</span>() <span class="comment">// 注意结尾的方法是getTemp，对order表过滤得到临时表</span></span><br><span class="line"><span class="keyword">const</span> res = <span class="keyword">await</span> db.<span class="title function_">collection</span>(order, <span class="string">&#x27;book&#x27;</span>).<span class="title function_">get</span>() <span class="comment">// 将获取的order表的临时表和book表进行联表查询</span></span><br><span class="line"></span><br><span class="line">第二种比较好</span><br><span class="line"></span><br><span class="line"><span class="comment">// 客户端联表查询</span></span><br><span class="line"><span class="keyword">const</span> db = uniCloud.<span class="title function_">database</span>()</span><br><span class="line"><span class="keyword">const</span> order = db.<span class="title function_">collection</span>(<span class="string">&#x27;order&#x27;</span>).<span class="title function_">field</span>(<span class="string">&#x27;book_id,quantity&#x27;</span>).<span class="title function_">getTemp</span>() <span class="comment">// 临时表field方法内需要包含关联字段，否则无法建立关联关系</span></span><br><span class="line"><span class="keyword">const</span> book = db.<span class="title function_">collection</span>(<span class="string">&#x27;book&#x27;</span>).<span class="title function_">field</span>(<span class="string">&#x27;_id,title,author&#x27;</span>).<span class="title function_">getTemp</span>() <span class="comment">// 临时表field方法内需要包含关联字段，否则无法建立关联关系</span></span><br><span class="line">db.<span class="title function_">collection</span>(order, book) <span class="comment">// 注意collection方法内需要传入所有用到的表名，用逗号分隔，主表需要放在第一位</span></span><br><span class="line">  .<span class="title function_">where</span>(<span class="string">&#x27;book_id.title == &quot;三国演义&quot;&#x27;</span>) <span class="comment">// 查询order表内书名为“三国演义”的订单</span></span><br><span class="line">  .<span class="title function_">get</span>()</span><br><span class="line">  .<span class="title function_">then</span>(<span class="function"><span class="params">res</span> =&gt;</span> &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(res);</span><br><span class="line">  &#125;).<span class="title function_">catch</span>(<span class="function"><span class="params">err</span> =&gt;</span> &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">error</span>(err)</span><br><span class="line">  &#125;)</span><br><span class="line"></span><br><span class="line"><span class="comment">// 直接使用虚拟联表查询</span></span><br><span class="line"><span class="keyword">const</span> res = <span class="keyword">await</span> db.<span class="title function_">collection</span>(<span class="string">&#x27;article,comment&#x27;</span>)</span><br><span class="line">.<span class="title function_">where</span>(<span class="string">&#x27;article_id._value==&quot;1&quot;&#x27;</span>)</span><br><span class="line">.<span class="title function_">get</span>()</span><br><span class="line"></span><br><span class="line"><span class="comment">// 先过滤article表，再获取虚拟联表联表获取评论</span></span><br><span class="line"><span class="keyword">const</span> article = db.<span class="title function_">collection</span>(<span class="string">&#x27;article&#x27;</span>).<span class="title function_">where</span>(<span class="string">&#x27;article_id==&quot;1&quot;&#x27;</span>).<span class="title function_">getTemp</span>() <span class="comment">// 注意是getTemp不是get</span></span><br><span class="line"><span class="keyword">const</span> res = <span class="keyword">await</span> db.<span class="title function_">collection</span>(article, <span class="string">&#x27;comment&#x27;</span>).<span class="title function_">get</span>()</span><br></pre></td></tr></table></figure>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> db = uniCloud.<span class="title function_">database</span>()</span><br><span class="line">db.<span class="title function_">collection</span>(<span class="string">&#x27;book&#x27;</span>)</span><br><span class="line">  .<span class="title function_">where</span>(<span class="string">&#x27;status == &quot;onsale&quot;&#x27;</span>)</span><br><span class="line">  .<span class="title function_">skip</span>(<span class="number">20</span>) <span class="comment">// 跳过前20条</span></span><br><span class="line">  .<span class="title function_">limit</span>(<span class="number">20</span>) <span class="comment">// 获取20条</span></span><br><span class="line">  .<span class="title function_">get</span>()</span><br><span class="line">  </span><br><span class="line"><span class="comment">// 上述用法对应的分页条件为：每页20条取第2页</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">db.<span class="title function_">collection</span>(<span class="string">&#x27;order&#x27;</span>).<span class="title function_">count</span>()</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> db = uniCloud.<span class="title function_">database</span>()</span><br><span class="line">  db.<span class="title function_">collection</span>(<span class="string">&#x27;order&#x27;</span>)</span><br><span class="line">    .<span class="title function_">get</span>(&#123;</span><br><span class="line">      <span class="attr">getCount</span>:<span class="literal">true</span></span><br><span class="line">    &#125;)</span><br><span class="line">    .<span class="title function_">then</span>(<span class="function"><span class="params">res</span> =&gt;</span> &#123;</span><br><span class="line">      <span class="variable language_">console</span>.<span class="title function_">log</span>(res);</span><br><span class="line">    &#125;).<span class="title function_">catch</span>(<span class="function"><span class="params">err</span> =&gt;</span> &#123;</span><br><span class="line">      <span class="variable language_">console</span>.<span class="title function_">error</span>(err)</span><br><span class="line">    &#125;)</span><br></pre></td></tr></table></figure>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> bannerQuery = db.<span class="title function_">collection</span>(<span class="string">&#x27;banner&#x27;</span>).<span class="title function_">field</span>(<span class="string">&#x27;url,image&#x27;</span>).<span class="title function_">getTemp</span>() <span class="comment">// 这里使用getTemp不直接发送get请求，等到multiSend时再发送</span></span><br><span class="line"><span class="keyword">const</span> noticeQuery = db.<span class="title function_">collection</span>(<span class="string">&#x27;notice&#x27;</span>).<span class="title function_">field</span>(<span class="string">&#x27;text,url,level&#x27;</span>).<span class="title function_">getTemp</span>()</span><br><span class="line"><span class="keyword">const</span> res = <span class="keyword">await</span> db.<span class="title function_">multiSend</span>(bannerQuery,noticeQuery)</span><br></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>unicloud</tag>
-        <tag>常用查表</tag>
       </tags>
   </entry>
   <entry>
