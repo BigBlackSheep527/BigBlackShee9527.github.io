@@ -61,62 +61,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Ubuntu 16 双显卡安装教程</title>
-    <url>/2023/06/24/Ubuntu%2016%20%E5%8F%8C%E6%98%BE%E5%8D%A1%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[<!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <meta name="referrer" content="no-referrer" />
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-  <title>Ubuntu 16 双显卡安装教程</title>
-  <!-- <link rel="stylesheet" href="https://stackedit.io/style.css" /> -->
-</head>
-
-<body class="stackedit">
-  <div class="stackedit__html"><p>整整安装了两天半,<br>
-早上九点多到晚上十二点多,<br>
-一直尝试了很多方法,<br>
-重装两次系统.<br>
-网上的教程把我给坑地明明白白,<br>
-教程五花八门,看得我眼花缭乱,<br>
-终于,老天有眼,<br>
-在下午一点多的时候,<br>
-终于搞定,<br>
-如图你是16系统,你还是装为18或者19 的系统吧,<br>
-因为bug真的很多<br>
-教程如下:</p>
-<ol>
-<li>更换系统,改为19的,18应该也可以</li>
-<li>打开软件与更新,</li>
-<li>选择下面的图片第二项,(第一项我试过了,也成功,不过有bug,显示不正常,还是用390吧)</li>
-<li>应用更改,<br>
-待会弹出一个窗口,会让你设置密码,两次密码要输入一样<br>
-<img src="https://img-blog.csdnimg.cn/20190726141412819.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></li>
-</ol>
-<p>4.重启系统,之后会蓝屏(蓝屏是正常的),按任意键,选择第二个选项,回车,直到跳出一个输入框,输入你刚刚设置的密码,回车,重启,</p>
-<p>5.进入系统,打开系统详情信息,可以看到"图像"已经是MK150显卡,完美,<br>
-<img src="https://img-blog.csdnimg.cn/20190726142312140.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>
-打开NVIDIA X Server Settings ,可以看到成功画面如下,不然,就是你操作不当失败了<br>
-<img src="https://img-blog.csdnimg.cn/20190726142244375.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h2><a id="_26"></a>最后,我想说,网上的一些教程真是</h2>
-<h2><a id="_27"></a>辣鸡辣鸡辣鸡辣鸡!!!</h2>
-</div>
-</body>
-
-</html>
-]]></content>
-      <categories>
-        <category>Ubuntu</category>
-        <category>双显卡安装教程</category>
-      </categories>
-      <tags>
-        <tag>Ubuntu 16</tag>
-        <tag>双显卡安装教程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>来自用户chinyan的文章</title>
     <url>/2023/06/23/chin/</url>
     <content><![CDATA[<h2 id="开始之前的准备"><a href="#开始之前的准备" class="headerlink" title="开始之前的准备"></a><a href="#" title="开始之前的准备"></a>开始之前的准备</h2><h3 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a><a href="#" title="环境准备"></a>环境准备</h3><p>在开始前要确保本地已经安装好了<a href="https://git-scm.com/downloads">git</a>和稳定版本的<a href="https://nodejs.org/en/">node.js</a> ，安装和配置的方式在这里就不再复述，相信这个对大家来讲都不是什么大问题。</p>
@@ -195,6 +139,62 @@
 <p>解决<br>如果 <code>hexo d</code> 后 <code>ERROR Deployer not found: git</code></p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">\<span class="comment"># 安装  </span></span><br><span class="line">npm install --save hexo-deployer-git​  </span><br></pre></td></tr></table></figure>
 ]]></content>
+  </entry>
+  <entry>
+    <title>Ubuntu 16 双显卡安装教程</title>
+    <url>/2023/06/24/Ubuntu%2016%20%E5%8F%8C%E6%98%BE%E5%8D%A1%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="referrer" content="no-referrer" />
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <title>Ubuntu 16 双显卡安装教程</title>
+  <!-- <link rel="stylesheet" href="https://stackedit.io/style.css" /> -->
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><p>整整安装了两天半,<br>
+早上九点多到晚上十二点多,<br>
+一直尝试了很多方法,<br>
+重装两次系统.<br>
+网上的教程把我给坑地明明白白,<br>
+教程五花八门,看得我眼花缭乱,<br>
+终于,老天有眼,<br>
+在下午一点多的时候,<br>
+终于搞定,<br>
+如图你是16系统,你还是装为18或者19 的系统吧,<br>
+因为bug真的很多<br>
+教程如下:</p>
+<ol>
+<li>更换系统,改为19的,18应该也可以</li>
+<li>打开软件与更新,</li>
+<li>选择下面的图片第二项,(第一项我试过了,也成功,不过有bug,显示不正常,还是用390吧)</li>
+<li>应用更改,<br>
+待会弹出一个窗口,会让你设置密码,两次密码要输入一样<br>
+<img src="https://img-blog.csdnimg.cn/20190726141412819.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></li>
+</ol>
+<p>4.重启系统,之后会蓝屏(蓝屏是正常的),按任意键,选择第二个选项,回车,直到跳出一个输入框,输入你刚刚设置的密码,回车,重启,</p>
+<p>5.进入系统,打开系统详情信息,可以看到"图像"已经是MK150显卡,完美,<br>
+<img src="https://img-blog.csdnimg.cn/20190726142312140.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>
+打开NVIDIA X Server Settings ,可以看到成功画面如下,不然,就是你操作不当失败了<br>
+<img src="https://img-blog.csdnimg.cn/20190726142244375.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h2><a id="_26"></a>最后,我想说,网上的一些教程真是</h2>
+<h2><a id="_27"></a>辣鸡辣鸡辣鸡辣鸡!!!</h2>
+</div>
+</body>
+
+</html>
+]]></content>
+      <categories>
+        <category>Ubuntu</category>
+        <category>双显卡安装教程</category>
+      </categories>
+      <tags>
+        <tag>Ubuntu 16</tag>
+        <tag>双显卡安装教程</tag>
+      </tags>
   </entry>
   <entry>
     <title>docker常用命令</title>
@@ -402,19 +402,6 @@
       </tags>
   </entry>
   <entry>
-    <title>unicloud 常用查表</title>
-    <url>/2023/06/24/unicloud%20%E5%B8%B8%E7%94%A8%E6%9F%A5%E8%A1%A8/</url>
-    <content><![CDATA[<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 直接关联多个表为虚拟联表再进行查询，旧写法，目前更推荐使用getTemp进行联表查询</span></span><br><span class="line"><span class="keyword">const</span> res = <span class="keyword">await</span> db.<span class="title function_">collection</span>(<span class="string">&#x27;order,book&#x27;</span>).<span class="title function_">where</span>(<span class="string">&#x27;_id==&quot;1&quot;&#x27;</span>).<span class="title function_">get</span>() <span class="comment">// 直接关联order和book之后再过滤</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 使用getTemp先过滤处理获取临时表再联表查询，推荐用法</span></span><br><span class="line"><span class="keyword">const</span> order = db.<span class="title function_">collection</span>(<span class="string">&#x27;order&#x27;</span>).<span class="title function_">where</span>(<span class="string">&#x27;_id==&quot;1&quot;&#x27;</span>).<span class="title function_">getTemp</span>() <span class="comment">// 注意结尾的方法是getTemp，对order表过滤得到临时表</span></span><br><span class="line"><span class="keyword">const</span> res = <span class="keyword">await</span> db.<span class="title function_">collection</span>(order, <span class="string">&#x27;book&#x27;</span>).<span class="title function_">get</span>() <span class="comment">// 将获取的order表的临时表和book表进行联表查询</span></span><br><span class="line"></span><br><span class="line">第二种比较好</span><br><span class="line"></span><br><span class="line"><span class="comment">// 客户端联表查询</span></span><br><span class="line"><span class="keyword">const</span> db = uniCloud.<span class="title function_">database</span>()</span><br><span class="line"><span class="keyword">const</span> order = db.<span class="title function_">collection</span>(<span class="string">&#x27;order&#x27;</span>).<span class="title function_">field</span>(<span class="string">&#x27;book_id,quantity&#x27;</span>).<span class="title function_">getTemp</span>() <span class="comment">// 临时表field方法内需要包含关联字段，否则无法建立关联关系</span></span><br><span class="line"><span class="keyword">const</span> book = db.<span class="title function_">collection</span>(<span class="string">&#x27;book&#x27;</span>).<span class="title function_">field</span>(<span class="string">&#x27;_id,title,author&#x27;</span>).<span class="title function_">getTemp</span>() <span class="comment">// 临时表field方法内需要包含关联字段，否则无法建立关联关系</span></span><br><span class="line">db.<span class="title function_">collection</span>(order, book) <span class="comment">// 注意collection方法内需要传入所有用到的表名，用逗号分隔，主表需要放在第一位</span></span><br><span class="line">  .<span class="title function_">where</span>(<span class="string">&#x27;book_id.title == &quot;三国演义&quot;&#x27;</span>) <span class="comment">// 查询order表内书名为“三国演义”的订单</span></span><br><span class="line">  .<span class="title function_">get</span>()</span><br><span class="line">  .<span class="title function_">then</span>(<span class="function"><span class="params">res</span> =&gt;</span> &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(res);</span><br><span class="line">  &#125;).<span class="title function_">catch</span>(<span class="function"><span class="params">err</span> =&gt;</span> &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">error</span>(err)</span><br><span class="line">  &#125;)</span><br><span class="line"></span><br><span class="line"><span class="comment">// 直接使用虚拟联表查询</span></span><br><span class="line"><span class="keyword">const</span> res = <span class="keyword">await</span> db.<span class="title function_">collection</span>(<span class="string">&#x27;article,comment&#x27;</span>)</span><br><span class="line">.<span class="title function_">where</span>(<span class="string">&#x27;article_id._value==&quot;1&quot;&#x27;</span>)</span><br><span class="line">.<span class="title function_">get</span>()</span><br><span class="line"></span><br><span class="line"><span class="comment">// 先过滤article表，再获取虚拟联表联表获取评论</span></span><br><span class="line"><span class="keyword">const</span> article = db.<span class="title function_">collection</span>(<span class="string">&#x27;article&#x27;</span>).<span class="title function_">where</span>(<span class="string">&#x27;article_id==&quot;1&quot;&#x27;</span>).<span class="title function_">getTemp</span>() <span class="comment">// 注意是getTemp不是get</span></span><br><span class="line"><span class="keyword">const</span> res = <span class="keyword">await</span> db.<span class="title function_">collection</span>(article, <span class="string">&#x27;comment&#x27;</span>).<span class="title function_">get</span>()</span><br></pre></td></tr></table></figure>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> db = uniCloud.<span class="title function_">database</span>()</span><br><span class="line">db.<span class="title function_">collection</span>(<span class="string">&#x27;book&#x27;</span>)</span><br><span class="line">  .<span class="title function_">where</span>(<span class="string">&#x27;status == &quot;onsale&quot;&#x27;</span>)</span><br><span class="line">  .<span class="title function_">skip</span>(<span class="number">20</span>) <span class="comment">// 跳过前20条</span></span><br><span class="line">  .<span class="title function_">limit</span>(<span class="number">20</span>) <span class="comment">// 获取20条</span></span><br><span class="line">  .<span class="title function_">get</span>()</span><br><span class="line">  </span><br><span class="line"><span class="comment">// 上述用法对应的分页条件为：每页20条取第2页</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">db.<span class="title function_">collection</span>(<span class="string">&#x27;order&#x27;</span>).<span class="title function_">count</span>()</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> db = uniCloud.<span class="title function_">database</span>()</span><br><span class="line">  db.<span class="title function_">collection</span>(<span class="string">&#x27;order&#x27;</span>)</span><br><span class="line">    .<span class="title function_">get</span>(&#123;</span><br><span class="line">      <span class="attr">getCount</span>:<span class="literal">true</span></span><br><span class="line">    &#125;)</span><br><span class="line">    .<span class="title function_">then</span>(<span class="function"><span class="params">res</span> =&gt;</span> &#123;</span><br><span class="line">      <span class="variable language_">console</span>.<span class="title function_">log</span>(res);</span><br><span class="line">    &#125;).<span class="title function_">catch</span>(<span class="function"><span class="params">err</span> =&gt;</span> &#123;</span><br><span class="line">      <span class="variable language_">console</span>.<span class="title function_">error</span>(err)</span><br><span class="line">    &#125;)</span><br></pre></td></tr></table></figure>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> bannerQuery = db.<span class="title function_">collection</span>(<span class="string">&#x27;banner&#x27;</span>).<span class="title function_">field</span>(<span class="string">&#x27;url,image&#x27;</span>).<span class="title function_">getTemp</span>() <span class="comment">// 这里使用getTemp不直接发送get请求，等到multiSend时再发送</span></span><br><span class="line"><span class="keyword">const</span> noticeQuery = db.<span class="title function_">collection</span>(<span class="string">&#x27;notice&#x27;</span>).<span class="title function_">field</span>(<span class="string">&#x27;text,url,level&#x27;</span>).<span class="title function_">getTemp</span>()</span><br><span class="line"><span class="keyword">const</span> res = <span class="keyword">await</span> db.<span class="title function_">multiSend</span>(bannerQuery,noticeQuery)</span><br></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>unicloud</tag>
-        <tag>常用查表</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>lodash常用函数</title>
     <url>/2023/06/24/lodash/</url>
     <content><![CDATA[<p><a name="dOB5s"></a></p>
@@ -440,6 +427,19 @@
       <tags>
         <tag>lodash</tag>
         <tag>常用</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>unicloud 常用查表</title>
+    <url>/2023/06/24/unicloud%20%E5%B8%B8%E7%94%A8%E6%9F%A5%E8%A1%A8/</url>
+    <content><![CDATA[<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 直接关联多个表为虚拟联表再进行查询，旧写法，目前更推荐使用getTemp进行联表查询</span></span><br><span class="line"><span class="keyword">const</span> res = <span class="keyword">await</span> db.<span class="title function_">collection</span>(<span class="string">&#x27;order,book&#x27;</span>).<span class="title function_">where</span>(<span class="string">&#x27;_id==&quot;1&quot;&#x27;</span>).<span class="title function_">get</span>() <span class="comment">// 直接关联order和book之后再过滤</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 使用getTemp先过滤处理获取临时表再联表查询，推荐用法</span></span><br><span class="line"><span class="keyword">const</span> order = db.<span class="title function_">collection</span>(<span class="string">&#x27;order&#x27;</span>).<span class="title function_">where</span>(<span class="string">&#x27;_id==&quot;1&quot;&#x27;</span>).<span class="title function_">getTemp</span>() <span class="comment">// 注意结尾的方法是getTemp，对order表过滤得到临时表</span></span><br><span class="line"><span class="keyword">const</span> res = <span class="keyword">await</span> db.<span class="title function_">collection</span>(order, <span class="string">&#x27;book&#x27;</span>).<span class="title function_">get</span>() <span class="comment">// 将获取的order表的临时表和book表进行联表查询</span></span><br><span class="line"></span><br><span class="line">第二种比较好</span><br><span class="line"></span><br><span class="line"><span class="comment">// 客户端联表查询</span></span><br><span class="line"><span class="keyword">const</span> db = uniCloud.<span class="title function_">database</span>()</span><br><span class="line"><span class="keyword">const</span> order = db.<span class="title function_">collection</span>(<span class="string">&#x27;order&#x27;</span>).<span class="title function_">field</span>(<span class="string">&#x27;book_id,quantity&#x27;</span>).<span class="title function_">getTemp</span>() <span class="comment">// 临时表field方法内需要包含关联字段，否则无法建立关联关系</span></span><br><span class="line"><span class="keyword">const</span> book = db.<span class="title function_">collection</span>(<span class="string">&#x27;book&#x27;</span>).<span class="title function_">field</span>(<span class="string">&#x27;_id,title,author&#x27;</span>).<span class="title function_">getTemp</span>() <span class="comment">// 临时表field方法内需要包含关联字段，否则无法建立关联关系</span></span><br><span class="line">db.<span class="title function_">collection</span>(order, book) <span class="comment">// 注意collection方法内需要传入所有用到的表名，用逗号分隔，主表需要放在第一位</span></span><br><span class="line">  .<span class="title function_">where</span>(<span class="string">&#x27;book_id.title == &quot;三国演义&quot;&#x27;</span>) <span class="comment">// 查询order表内书名为“三国演义”的订单</span></span><br><span class="line">  .<span class="title function_">get</span>()</span><br><span class="line">  .<span class="title function_">then</span>(<span class="function"><span class="params">res</span> =&gt;</span> &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(res);</span><br><span class="line">  &#125;).<span class="title function_">catch</span>(<span class="function"><span class="params">err</span> =&gt;</span> &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">error</span>(err)</span><br><span class="line">  &#125;)</span><br><span class="line"></span><br><span class="line"><span class="comment">// 直接使用虚拟联表查询</span></span><br><span class="line"><span class="keyword">const</span> res = <span class="keyword">await</span> db.<span class="title function_">collection</span>(<span class="string">&#x27;article,comment&#x27;</span>)</span><br><span class="line">.<span class="title function_">where</span>(<span class="string">&#x27;article_id._value==&quot;1&quot;&#x27;</span>)</span><br><span class="line">.<span class="title function_">get</span>()</span><br><span class="line"></span><br><span class="line"><span class="comment">// 先过滤article表，再获取虚拟联表联表获取评论</span></span><br><span class="line"><span class="keyword">const</span> article = db.<span class="title function_">collection</span>(<span class="string">&#x27;article&#x27;</span>).<span class="title function_">where</span>(<span class="string">&#x27;article_id==&quot;1&quot;&#x27;</span>).<span class="title function_">getTemp</span>() <span class="comment">// 注意是getTemp不是get</span></span><br><span class="line"><span class="keyword">const</span> res = <span class="keyword">await</span> db.<span class="title function_">collection</span>(article, <span class="string">&#x27;comment&#x27;</span>).<span class="title function_">get</span>()</span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> db = uniCloud.<span class="title function_">database</span>()</span><br><span class="line">db.<span class="title function_">collection</span>(<span class="string">&#x27;book&#x27;</span>)</span><br><span class="line">  .<span class="title function_">where</span>(<span class="string">&#x27;status == &quot;onsale&quot;&#x27;</span>)</span><br><span class="line">  .<span class="title function_">skip</span>(<span class="number">20</span>) <span class="comment">// 跳过前20条</span></span><br><span class="line">  .<span class="title function_">limit</span>(<span class="number">20</span>) <span class="comment">// 获取20条</span></span><br><span class="line">  .<span class="title function_">get</span>()</span><br><span class="line">  </span><br><span class="line"><span class="comment">// 上述用法对应的分页条件为：每页20条取第2页</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">db.<span class="title function_">collection</span>(<span class="string">&#x27;order&#x27;</span>).<span class="title function_">count</span>()</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> db = uniCloud.<span class="title function_">database</span>()</span><br><span class="line">  db.<span class="title function_">collection</span>(<span class="string">&#x27;order&#x27;</span>)</span><br><span class="line">    .<span class="title function_">get</span>(&#123;</span><br><span class="line">      <span class="attr">getCount</span>:<span class="literal">true</span></span><br><span class="line">    &#125;)</span><br><span class="line">    .<span class="title function_">then</span>(<span class="function"><span class="params">res</span> =&gt;</span> &#123;</span><br><span class="line">      <span class="variable language_">console</span>.<span class="title function_">log</span>(res);</span><br><span class="line">    &#125;).<span class="title function_">catch</span>(<span class="function"><span class="params">err</span> =&gt;</span> &#123;</span><br><span class="line">      <span class="variable language_">console</span>.<span class="title function_">error</span>(err)</span><br><span class="line">    &#125;)</span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> bannerQuery = db.<span class="title function_">collection</span>(<span class="string">&#x27;banner&#x27;</span>).<span class="title function_">field</span>(<span class="string">&#x27;url,image&#x27;</span>).<span class="title function_">getTemp</span>() <span class="comment">// 这里使用getTemp不直接发送get请求，等到multiSend时再发送</span></span><br><span class="line"><span class="keyword">const</span> noticeQuery = db.<span class="title function_">collection</span>(<span class="string">&#x27;notice&#x27;</span>).<span class="title function_">field</span>(<span class="string">&#x27;text,url,level&#x27;</span>).<span class="title function_">getTemp</span>()</span><br><span class="line"><span class="keyword">const</span> res = <span class="keyword">await</span> db.<span class="title function_">multiSend</span>(bannerQuery,noticeQuery)</span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>unicloud</tag>
+        <tag>常用查表</tag>
       </tags>
   </entry>
   <entry>
@@ -538,6 +538,65 @@
 
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">import urllib.request as ur</span><br><span class="line">import os</span><br><span class="line">import string</span><br><span class="line">import threading</span><br><span class="line">import re</span><br><span class="line">import requests</span><br><span class="line">import sys</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def get_image(keyworld, pn, rn, type, i):</span><br><span class="line">    try:</span><br><span class="line">        url = ur.quote(</span><br><span class="line">            &#x27;https://image.baidu.com/search/acjson?tn=resultjson_com&amp;ipn=rj&amp;ct=201326592&amp;is=&amp;fp=result&#x27;</span><br><span class="line">            &#x27;&amp;queryWord=&#x27; + keyworld + &#x27;&amp;cl=2&amp;lm=-1&amp;ie=utf-8&amp;oe=utf-8&amp;adpicid=&amp;st=-1&amp;z=&amp;ic=0&amp;word=&#x27; + keyworld +</span><br><span class="line">            &#x27;&amp;s=&amp;se=&amp;tab=&amp;width=&amp;height=&amp;face=0&amp;istype=2&amp;qc=&amp;nc=1&amp;fr=&amp;pn=&#x27; + str(pn) + &#x27;&amp;rn=&#x27; + str(</span><br><span class="line">                rn) + &#x27;&amp;gsm=1e&amp;1529504588260=&#x27;,</span><br><span class="line">            safe=string.printable)</span><br><span class="line">        req = ur.Request(url)</span><br><span class="line">        req.add_header(&quot;User-Agent&quot;, &quot;Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0&quot;)</span><br><span class="line">        html1 = ur.urlopen(url, timeout=600).read()</span><br><span class="line">        html1 = str(html1)</span><br><span class="line"></span><br><span class="line">        pat1 = &#x27;&quot;thumbURL&quot;:&quot;.+?&quot;,&#x27;</span><br><span class="line">        pat2 = &#x27;https:.+?.jpg&#x27;</span><br><span class="line">        thumbURLs = re.compile(pat1).findall(html1)</span><br><span class="line">        imageURLs = re.compile(pat2).findall(str(thumbURLs))</span><br><span class="line"></span><br><span class="line">        save_dir = type + &#x27;/&#x27; + type + i + &#x27;/&#x27;</span><br><span class="line">        if os.path.exists(save_dir) is False:</span><br><span class="line">            os.makedirs(save_dir)</span><br><span class="line">        num = 1</span><br><span class="line">        for index, imageurl in enumerate(imageURLs):</span><br><span class="line">            try:</span><br><span class="line">                data = ur.urlopen(imageurl, timeout=20).read()</span><br><span class="line">                fd = open(save_dir + type + &#x27;_&#x27; + str(pn) + &#x27;_&#x27; + str(index) + &#x27;.jpg&#x27;, &quot;wb&quot;)</span><br><span class="line">                fd.write(data)</span><br><span class="line">                fd.close()</span><br><span class="line">                sys.stdout.write(&#x27;下载成功%s\r&#x27; % num)</span><br><span class="line">                sys.stdout.flush()</span><br><span class="line">                num = num + 1</span><br><span class="line">            except Exception as e:</span><br><span class="line">                print(&#x27;保存图片异常:&#x27; + e)</span><br><span class="line">    except Exception as e:</span><br><span class="line">        print(&#x27;获取图片url异常:&#x27; + e)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">if __name__ == &#x27;__main__&#x27;:</span><br><span class="line">    ai = input(&quot;Input key: &quot;)</span><br><span class="line">    bi = input(&quot;Input num: &quot;)</span><br><span class="line">    for i in range(int(bi)):</span><br><span class="line">        get_image(ai, i * 50, 50, ai, str(i))</span><br><span class="line">    # tA = ThreadA()</span><br><span class="line">    # tA.start()</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
+]]></content>
+  </entry>
+  <entry>
+    <title>评论系统</title>
+    <url>/2023/07/02/%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/</url>
+    <content><![CDATA[<p><a href="https://www.cnblogs.com/fhhw/"><img src="https://www.cnblogs.com/skins/custom/images/logo.gif"></a> </p>
+<h1 id="fhhw"><a href="#fhhw" class="headerlink" title="fhhw"></a><a href="https://www.cnblogs.com/fhhw/">fhhw</a></h1><ul>
+<li><a href="https://www.cnblogs.com/">博客园</a></li>
+<li><a href="https://www.cnblogs.com/fhhw/">首页</a></li>
+<li><a href="https://i.cnblogs.com/EditPosts.aspx?opt=1">新随笔</a></li>
+<li><a href="https://msg.cnblogs.com/send/%E8%8B%8F%E6%9C%A8%E5%B7%9D">联系</a></li>
+<li><a href="javascript:void(0)">订阅</a></li>
+<li><a href="https://i.cnblogs.com/">管理</a></li>
+</ul>
+<h1 id="Hexo-评论系统"><a href="#Hexo-评论系统" class="headerlink" title="Hexo 评论系统"></a><a href="https://www.cnblogs.com/fhhw/p/17301034.html">Hexo 评论系统</a></h1><p>Hexo 博客系统是静态博客，本身无法支持评论等动态的功能，但是可以通过第三方的评论系统让 Hexo 博客支持评论功能。常见的评论系统包括：Valine、Disqus、Gitment、Giscus 等，本文主要介绍 Giscus 的使用。</p>
+<h1 id="Hexo-评论系统-1"><a href="#Hexo-评论系统-1" class="headerlink" title="Hexo 评论系统"></a>Hexo 评论系统</h1><p>上一篇文章<a href="https://www.cnblogs.com/fhhw/p/17296158.html">博客搭建教程</a>搭建了一个博客的基本框架，但是没有解决博客评论问题，本文填充一下这部分欠缺。</p>
+<p>Hexo 博客系统是静态博客，本身无法支持评论等动态的功能，但是可以通过第三方的评论系统让 Hexo 博客支持评论功能。常见的评论系统包括：Valine、Disqus、Gitment、Giscus 等，本文主要介绍 Giscus 的使用。</p>
+<h2 id="giscus-简介"><a href="#giscus-简介" class="headerlink" title="giscus 简介"></a>giscus 简介</h2><p>giscus是由 <a href="https://docs.github.com/en/discussions">GitHub Discussions</a> 驱动的评论系统。让访客借助 GitHub 在你的网站上留下评论和反应，该项目受 <a href="https://github.com/utterance/utterances">utterances</a> 启发。包括以下特性：</p>
+<ul>
+<li>开源；</li>
+<li>无跟踪，无广告，永久免费；</li>
+<li>无需数据库，全部数据均储存在 GitHub Discussions 中；</li>
+<li>支持自定义主题；</li>
+<li>支持多种语言；</li>
+<li>高度可配置；</li>
+<li>自动从 GitHub 拉取新评论与编辑；</li>
+<li>可自建服务；</li>
+</ul>
+<h3 id="运作原理"><a href="#运作原理" class="headerlink" title="运作原理"></a>运作原理</h3><p>giscus 加载时，会使用 [GitHub Discussions 搜索 API](<a href="https://docs.github.com/en/graphql/guides/using-the-graphql-api-for-discussions">https://docs.github.com/en/graphql/guides/using-the-graphql-api-for-discussions</a> target&#x3D;) 根据选定的映射方式（如 URL、<code>pathname</code>、<code>&lt;title&gt;</code> 等）来查找与当前页面关联的 discussion。如果找不到匹配的 discussion，giscus bot 就会在第一次有人留下评论或回应时自动创建一个 discussion。</p>
+<p>要评论，访客必须按 GitHub OAuth 流程授权 <a href="https://github.com/apps/giscus">giscus app</a> <a href="https://docs.github.com/en/developers/apps/identifying-and-authorizing-users-for-github-apps">代表他发帖</a>。或者访客也可以直接在 GitHub Discussion 里评论。你可以在 GitHub 上管理评论。</p>
+<h2 id="在-Hexo-中配置-giscus"><a href="#在-Hexo-中配置-giscus" class="headerlink" title="在 Hexo 中配置 giscus"></a>在 Hexo 中配置 giscus</h2><p><strong>Step 1：</strong>新建 Github 仓库，确保：</p>
+<ol>
+<li>此仓库是[公开的](<a href="https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/setting-repository-visibility">https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/setting-repository-visibility</a> target&#x3D;)，否则访客将无法查看 discussion。</li>
+<li><a href="https://github.com/apps/giscus">giscus</a> app 已安装否则访客将无法评论和回应。</li>
+<li>Discussions功能已<a href="https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/enabling-or-disabling-github-discussions-for-a-repository">在你的仓库中启用</a>。</li>
+</ol>
+<p><strong>Step 2：</strong>Hexo 配置</p>
+<p>在你的 Hexo 博客目录中执行以下命令，安装 hexo-next-giscus 插件。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">npm install hexo-next-giscus --save</span><br></pre></td></tr></table></figure>
+<p>然后在 Hexo 的 _config.yml 配置文件添加如下内容：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="attr">giscus:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">\#</span> <span class="string">Github</span> <span class="string">repository</span> <span class="string">name</span></span><br><span class="line">  <span class="string">repo\_id:</span> <span class="string">\#</span> <span class="string">Github</span> <span class="string">repository</span> <span class="string">id</span></span><br><span class="line">  <span class="attr">category:</span> <span class="string">\#</span> <span class="string">Github</span> <span class="string">discussion</span> <span class="string">category</span></span><br><span class="line">  <span class="string">category\_id:</span> <span class="string">\#</span> <span class="string">Github</span> <span class="string">discussion</span> <span class="string">category</span> <span class="string">id</span></span><br><span class="line">  <span class="string">\#</span> <span class="attr">Available values:</span> <span class="string">pathname</span> <span class="string">|</span> <span class="string">url</span> <span class="string">|</span> <span class="string">title</span> <span class="string">|</span> <span class="string">og:title</span></span><br><span class="line">  <span class="attr">mapping:</span> <span class="string">pathname</span></span><br><span class="line">  <span class="string">\#</span> <span class="attr">Available values:</span> <span class="number">0</span> <span class="string">|</span> <span class="number">1</span> </span><br><span class="line">  <span class="string">reactions\_enabled:</span> <span class="number">1</span></span><br><span class="line">   <span class="string">\#</span> <span class="attr">Available values:</span> <span class="number">0</span> <span class="string">|</span> <span class="number">1</span> </span><br><span class="line">  <span class="string">emit\_metadata:</span> <span class="number">1</span></span><br><span class="line">  <span class="string">\#</span> <span class="attr">Available values:</span> <span class="string">light</span> <span class="string">|</span> <span class="string">dark</span> <span class="string">|</span> <span class="string">dark\_high\_contrast</span> <span class="string">|</span> <span class="string">transparent\_dark</span> <span class="string">|</span> <span class="string">preferred-color-scheme</span></span><br><span class="line">  <span class="attr">theme:</span> <span class="string">light</span></span><br><span class="line">  <span class="string">\#</span> <span class="attr">Available values:</span> <span class="string">en</span> <span class="string">|</span> <span class="string">zh-C</span></span><br><span class="line">  <span class="attr">lang:</span> <span class="string">en</span></span><br><span class="line">  <span class="string">\#</span> <span class="attr">Available value:</span> <span class="string">anonymous</span></span><br><span class="line">  <span class="attr">crossorigin:</span> <span class="string">anonymous</span></span><br></pre></td></tr></table></figure>
+<p>或者在主题的配置文件 _config.themename.yml 中对应项添加即可，例如 butterfly 主题：</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="attr">giscus:</span></span><br><span class="line"> <span class="attr">repo:</span>    <span class="string">\#</span> <span class="string">uername/repo\_name</span></span><br><span class="line"> <span class="string">repo\_id:</span> </span><br><span class="line"> <span class="string">category\_id:</span> </span><br><span class="line"> <span class="attr">theme:</span></span><br><span class="line">  <span class="attr">light:</span> <span class="string">light</span></span><br><span class="line">  <span class="attr">dark:</span> <span class="string">dark</span></span><br><span class="line"> <span class="attr">option:</span></span><br></pre></td></tr></table></figure>
+<p><code>repo_id</code>是托管博客的代码仓库的一个标识值，<code>category</code>是该仓库Issues里面对应的分类（或者说是主题）。一个仓库默认具有下面几个分类：Announcements、General、Ideas、Q&amp;A、Show and tell。这里我选择General作为评论的分类。最后的<code>category_id</code>类似<code>repo_id</code>也是对该分类的一个标识值。</p>
+<p>如何快速的获取这些数据呢，可以通过GitHub官方的<a href="https://docs.github.com/en/graphql/overview/explorer">GraphQL API Explorer</a>查询到。这里把查询所用的语句进行记录。</p>
+<figure class="highlight plaintext"><figcaption><span>applescript</span></figcaption><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">query &#123;</span><br><span class="line">  repository (name: &quot;repo\_name&quot;, owner: &quot;owner\_name&quot;)  &#123;</span><br><span class="line">    id</span><br><span class="line">    discussionCategories (first: 5) &#123;</span><br><span class="line">      nodes &#123;</span><br><span class="line">        name</span><br><span class="line">        id</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>然后将查询数据填入对应项即可。</p>
+<p>推荐使用<strong>公告（announcements）</strong>类型的分类，以确保新 discussion 只能由仓库维护者和 giscus 创建。</p>
+<h1 id="github-如何找到自己的-Repo-ID？"><a href="#github-如何找到自己的-Repo-ID？" class="headerlink" title="github - 如何找到自己的 Repo ID？"></a>github - 如何找到自己的 Repo ID？</h1><p>标签 <a href="https://www.coder.work/blog?tag=github" title="github">github</a> <a href="https://www.coder.work/blog?tag=repository" title="repository">repository</a></p>
+<p>虽然我绝对不是这个私有(private) repo 的所有者，但我一直将它用作学校项目组的一部分，老师在向他发送有关任何事情的电子邮件时只是询问 repo 的 ID。如果这对很多人来说是显而易见的，我很抱歉，但对于我的一生，我无法通过 github 或 google 找到任何明确的说明。我没有为我的 git 使用 GUI，严格通过 linux shell。  </p>
+<p>如何找出当前 Repo 的 ID？</p>
+<p><strong>最佳答案</strong></p>
+<p>如果像我一样，您在 GitHub 存储库 ID 之后(如 - 识别存储库的编号 - 不是它的名称)，那么我通过 GitHub 存储库主页上的元数据元素找到了一种简单的方法:  </p>
+<ul>
+<li>查看页面源代码(例如在 Chrome 或 Firefox 中右键 &gt; 查看页面源代码)</li>
+<li>搜索页面源并查找 <code>octolytics-dimension-repository_id</code> 。您应该找到如下所示的内容:<br><code>&lt;meta content=&quot;123456789&quot; name=&quot;octolytics-dimension-repository_id&quot; /&gt;</code></li>
+</ul>
+<p><a href="https://mp-6fc29f3f-14dc-4d29-99e1-a8caab6a2c40.cdn.bspapp.com/%E5%8D%9A%E5%AE%A2%E5%9B%BE%E7%89%87/giscus/resp_id.png"><img src="https://mp-6fc29f3f-14dc-4d29-99e1-a8caab6a2c40.cdn.bspapp.com/%E5%8D%9A%E5%AE%A2%E5%9B%BE%E7%89%87/giscus/resp_id.png"></a></p>
+<h1 id="github-如何找到自己的-Repo-ID？-1"><a href="#github-如何找到自己的-Repo-ID？-1" class="headerlink" title="github - 如何找到自己的 Repo ID？"></a>github - 如何找到自己的 Repo ID？</h1><p><a href="https://mp-6fc29f3f-14dc-4d29-99e1-a8caab6a2c40.cdn.bspapp.com/%E5%8D%9A%E5%AE%A2%E5%9B%BE%E7%89%87/giscus/cate1.png"><img src="https://mp-6fc29f3f-14dc-4d29-99e1-a8caab6a2c40.cdn.bspapp.com/%E5%8D%9A%E5%AE%A2%E5%9B%BE%E7%89%87/giscus/cate1.png"></a><br><a href="https://mp-6fc29f3f-14dc-4d29-99e1-a8caab6a2c40.cdn.bspapp.com/%E5%8D%9A%E5%AE%A2%E5%9B%BE%E7%89%87/giscus/cate2.png"><img src="https://mp-6fc29f3f-14dc-4d29-99e1-a8caab6a2c40.cdn.bspapp.com/%E5%8D%9A%E5%AE%A2%E5%9B%BE%E7%89%87/giscus/cate2.png"></a><br><a href="https://mp-6fc29f3f-14dc-4d29-99e1-a8caab6a2c40.cdn.bspapp.com/%E5%8D%9A%E5%AE%A2%E5%9B%BE%E7%89%87/giscus/cate3.png"><img src="https://mp-6fc29f3f-14dc-4d29-99e1-a8caab6a2c40.cdn.bspapp.com/%E5%8D%9A%E5%AE%A2%E5%9B%BE%E7%89%87/giscus/cate3.png"></a></p>
 ]]></content>
   </entry>
 </search>
