@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Ubuntu (2023811)</title>
+    <url>/2023/08/22/Ubuntu%20(2023811)/</url>
+    <content><![CDATA[<h3 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h3><h5 id="1-chmod"><a href="#1-chmod" class="headerlink" title="1.chmod"></a>1.chmod</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">chmod +x clash    // 给clash增加权限</span><br></pre></td></tr></table></figure>]]></content>
+  </entry>
+  <entry>
     <title>SQL常用命令</title>
     <url>/2023/06/22/SQL%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
     <content><![CDATA[<p><a name="cKqKF"></a></p>
@@ -117,56 +122,46 @@
       </tags>
   </entry>
   <entry>
-    <title>Get请求如何正确的传递数组</title>
-    <url>/2023/07/16/get-array/</url>
-    <content><![CDATA[<h1 id="Get请求如何正确的传递数组"><a href="#Get请求如何正确的传递数组" class="headerlink" title="Get请求如何正确的传递数组"></a>Get请求如何正确的传递数组</h1><p>假如现在后端有这么一个接口&#x2F;users，前端可以通过传roleIds数组来查询这些角色关联的用户，后端的接口和参数定义如下：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//Controller @GetMapping(&quot;/users&quot;) public R&lt;?&gt; list(ReqVo vo) &#123;   //... &#125;</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//ReqVo @Data public class ReqVo &#123;   private List&lt;String&gt; roleIds; &#125;</span></span><br></pre></td></tr></table></figure>
-<p>那么我们可以有以下几种方式来传递数组：</p>
-<ul>
-<li>方式一</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">GET http://localhost:8080/users?roleIds=1&amp;roleIds=2</span><br></pre></td></tr></table></figure>
-<ul>
-<li>方式二</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">GET http://localhost:8080/users?roleIds=1,2</span><br></pre></td></tr></table></figure>
-<ul>
-<li>方式三</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">GET http://localhost:8080/users?roleIds[0]=1&amp;roleIds[1]=2</span><br></pre></td></tr></table></figure>
-<ul>
-<li>方式四</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">GET http://localhost:8080/users?roleIds[]=1&amp;roleIds[]=2</span><br></pre></td></tr></table></figure>
-<p>需要注意的是，最后两种方式带有中括号<code>[]</code>，<code>[]</code>在url中属于功能性字符，前端需要使用<code>encodeURIComponent()</code>函数转义，否则在高版本tomcat中会出现_400 Bad Request_错误</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>eric汉化</title>
-    <url>/2023/06/24/eric%E6%B1%89%E5%8C%96/</url>
-    <content><![CDATA[<head>
-  <meta charset="utf-8">
-  <meta name="referrer" content="no-referrer" />
-  <title>某eric汉化</title>
-</head>
+    <title>Ubuntu 18.04 Docker 配置代理连接网络(2023811)</title>
+    <url>/2023/08/22/Ubuntu%2018.04%20Docker%20%E9%85%8D%E7%BD%AE%E4%BB%A3%E7%90%86%E8%BF%9E%E6%8E%A5%E7%BD%91%E7%BB%9C(2023811)/</url>
+    <content><![CDATA[<br/>
 
-<body class="stackedit">
-  <div class="stackedit__html"><p>网上的一堆教程真是够垃圾，复杂而又无效，明明是简单的事情，偏偏要搞得那么复杂。<br>
-话不多说，简单技巧如下：</p>
-<p><img src="https://img-blog.csdnimg.cn/20190608221440279.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p>首先<br>
-下载图片相关汉化包，<br>
-其次<br>
-放在其都是.qm的文件夹，如下图所示<br>
-汉化成功!<br>
-<br>
-<img src="https://img-blog.csdnimg.cn/20201005223233514.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70#pic_center" alt=""><img src="https://img-blog.csdnimg.cn/20190608221850982.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>
-附上成功界面<img src="https://img-blog.csdnimg.cn/20190608221935696.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-</div>
-</body>
+<h2 id="Ubuntu-18-04-Docker-配置代理连接网络"><a href="#Ubuntu-18-04-Docker-配置代理连接网络" class="headerlink" title="Ubuntu 18.04 Docker 配置代理连接网络"></a>Ubuntu 18.04 Docker 配置代理连接网络</h2><p>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</p>
+<blockquote>
+<p>创建目录  </p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mkdir -p /etc/systemd/system/docker.service.d</span><br></pre></td></tr></table></figure>
 
+<blockquote>
+<p> 创建http-proxy.conf配置文件  </p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">touch /etc/systemd/system/docker.service.d/http-proxy.conf</span><br><span class="line">vim /etc/systemd/system/docker.service.d/http-proxy.conf</span><br></pre></td></tr></table></figure>
 
+<blockquote>
+<p>在http-proxy.conf文件中添加如下内容，注意【service】是必须要填写的（根据自家的代理情况填写，参考资料有HTTPS的说明）</p>
+<p>例如可以使用clash代理后的 127.0.0.1:7890</p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[Service\]**  </span><br><span class="line">Environment=&quot;HTTP\_PROXY=http://127.0.0.1:7890/&quot; &quot;NO\_PROXY=localhost,127.0.0.1&quot;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p> Flush变更  </p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemctl daemon-reload</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>重启Docker  </p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemctl restart docker</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>验证配置是否已加载  </p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemctl show --property=Environment docker  </span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>当有如下输出  </p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Environment=HTTP\_PROXY=http://127.0.0.1:7890/ NO\_PROXY=localhost,127.0.0.1  </span><br></pre></td></tr></table></figure>
 ]]></content>
   </entry>
   <entry>
@@ -248,87 +243,6 @@
 <p>解决<br>如果 <code>hexo d</code> 后 <code>ERROR Deployer not found: git</code></p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">\<span class="comment"># 安装  </span></span><br><span class="line">npm install --save hexo-deployer-git​  </span><br></pre></td></tr></table></figure>
 ]]></content>
-  </entry>
-  <entry>
-    <title>Git常用命令</title>
-    <url>/2023/06/20/gitcomend/</url>
-    <content><![CDATA[<table>
-<thead>
-<tr>
-<th>目的</th>
-<th>GIT命令</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>第一次初始化仓库</td>
-<td><code>git init</code><br><code>git add .</code><br><code>git commit -m [描述字体，例如 &quot;first commit &quot;]</code><br><code>git remote add origin [仓库地址]</code><br><code>git push -u origin [分支名称，一般第一次有默认的master]</code></td>
-</tr>
-<tr>
-<td>拉取远程分支到本地</td>
-<td><code>git fetch origin [分支名称]</code></td>
-</tr>
-<tr>
-<td>提送到git</td>
-<td><code>git push origin [分支名称]</code></td>
-</tr>
-<tr>
-<td>删除本地分支</td>
-<td><code>git branch -d [分支的名称]</code></td>
-</tr>
-<tr>
-<td>删除远程分支</td>
-<td><code>git push origin --delete [分支的名称]</code></td>
-</tr>
-<tr>
-<td>查看远程分支与本地分支</td>
-<td><code>git branch -a</code></td>
-</tr>
-<tr>
-<td>合并分支</td>
-<td><code>git pull origin [目标分支]</code><br><code>git merge [被合分支]</code><br><code>git push origin [目标分支]</code></td>
-</tr>
-<tr>
-<td>更新远程分支列表</td>
-<td><code>git remote update origin --prune</code></td>
-</tr>
-<tr>
-<td>查看所有分支</td>
-<td><code>git branch -a</code></td>
-</tr>
-<tr>
-<td>撤销提交</td>
-<td><code>git reset --soft [HEAD^ | HEAD~1 | HEAD ~&lt;n&gt;]</code></td>
-</tr>
-<tr>
-<td>创建本地分支</td>
-<td><code>git branch [分支名称]</code></td>
-</tr>
-<tr>
-<td>切换分支</td>
-<td><code>git checkout [分支名称]</code></td>
-</tr>
-<tr>
-<td>创建并切换到创建的分支</td>
-<td><code>git checkout -b [分支名称]</code></td>
-</tr>
-<tr>
-<td>根据已有的远程分支创建新的分支</td>
-<td><code>git checkout -b [创建的分支名] origin/[远程的分支名称]</code></td>
-</tr>
-<tr>
-<td>删除分支</td>
-<td><code>git branch -d [分支名称]</code></td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>Git</category>
-        <category>Git常用命令</category>
-      </categories>
-      <tags>
-        <tag>基础</tag>
-        <tag>Git常用</tag>
-      </tags>
   </entry>
   <entry>
     <title>docker常用命令</title>
@@ -428,6 +342,405 @@
       </tags>
   </entry>
   <entry>
+    <title>Docker</title>
+    <url>/2023/08/22/docker%EF%BC%882023811)/</url>
+    <content><![CDATA[<h2 id="Docker-上手"><a href="#Docker-上手" class="headerlink" title="Docker 上手"></a>Docker 上手</h2><h3 id="一、-镜像操作"><a href="#一、-镜像操作" class="headerlink" title="一、 镜像操作"></a>一、 镜像操作</h3><h4 id="1-列出镜像"><a href="#1-列出镜像" class="headerlink" title="1. 列出镜像"></a>1. 列出镜像</h4><p><strong>「语句：」</strong> <code>docker images</code></p>
+<ul>
+<li><strong>「REPOSITORY」</strong>：表示镜像的仓库源</li>
+<li><strong>「TAG」</strong>：镜像的标签</li>
+<li><strong>「IMAGE ID」</strong>：镜像ID</li>
+<li><strong>「CREATED」</strong>：镜像创建时间</li>
+<li><strong>「SIZE」</strong>：镜像大小</li>
+</ul>
+<h4 id="2-查找镜像"><a href="#2-查找镜像" class="headerlink" title="2. 查找镜像"></a>2. 查找镜像</h4><p><strong>「语句：」</strong> <code>docker search $&#123;image_name&#125;</code></p>
+<ul>
+<li><strong>「NAME」</strong>：镜像仓库源的名称</li>
+<li><strong>「DESCRIPTION」</strong>：镜像的描述</li>
+<li><strong>「starts」</strong>：用户评价，反应一个镜像的受欢迎程度</li>
+<li><strong>「OFFICIAL」</strong>：是否docker官方发布</li>
+<li><strong>「auto commit」</strong>：自动构建，表示该镜像由 Docker Hub 自动构建流程创建的</li>
+</ul>
+<h4 id="3-拉取镜像"><a href="#3-拉取镜像" class="headerlink" title="3. 拉取镜像"></a>3. 拉取镜像</h4><p><strong>「语句：」</strong> <code>docker pull $&#123;image_name&#125;:$&#123;image_version&#125;</code></p>
+<h4 id="4-删除镜像"><a href="#4-删除镜像" class="headerlink" title="4. 删除镜像"></a>4. 删除镜像</h4><ul>
+<li><p><strong>「删除单个：」</strong></p>
+<p><code>docker rmi $&#123;image_name&#125; (or $&#123;id&#125;)</code></p>
+</li>
+<li><p><strong>「删除多个：」</strong></p>
+<p><code>docker rmi $&#123;image_name&#125;/$&#123;id&#125; $&#123;image_name&#125;/$&#123;id&#125; ...</code></p>
+</li>
+<li><p><strong>「删除所有：」</strong></p>
+<p><code>docker rmi</code> <strong>「`docker images -q`」</strong></p>
+</li>
+</ul>
+<h4 id="5-查看镜像元数据"><a href="#5-查看镜像元数据" class="headerlink" title="5. 查看镜像元数据"></a>5. 查看镜像元数据</h4><p><code>docker inspect $&#123;image_name&#125;</code></p>
+<p><code>docker inspect -f =&#39;&#123;&#123;.NetworkSettings.IPAddress&#125;&#125;&#39; $&#123;image_name&#125;</code></p>
+<ul>
+<li><strong>「-f」</strong>：可用 <strong>「-format」</strong> 代替</li>
+</ul>
+<h3 id="二、容器操作"><a href="#二、容器操作" class="headerlink" title="二、容器操作"></a>二、容器操作</h3><h4 id="1-创建容器"><a href="#1-创建容器" class="headerlink" title="1. 创建容器"></a>1. 创建容器</h4><p><code>docker run [option] --name=$&#123;name&#125; image command [args...]</code></p>
+<p><strong>「option 选项」</strong>：</p>
+<ul>
+<li><code>-i</code>：交互式容器</li>
+<li><code>-t</code>：tty，终端</li>
+<li><code>-d</code>：后台运行，并且打印出容器 <strong>「id」</strong></li>
+</ul>
+<p><strong>「示例」</strong>：</p>
+<p><code>docker run -i -t -d --name=centOS1 centos /bin/bash</code></p>
+<p><strong>「&#x3D;」</strong></p>
+<p><code>docker run -itd --name=centOS1 centos /bin/bash</code></p>
+<p><strong>「注：」</strong> 创建的容器名称不能重复</p>
+<h4 id="2-进入容器"><a href="#2-进入容器" class="headerlink" title="2. 进入容器"></a>2. 进入容器</h4><p><strong>「方式1：」</strong></p>
+<p><code>docker attach $&#123;name&#125;/$&#123;id&#125;</code></p>
+<ul>
+<li>示例：</li>
+</ul>
+<p><code>docker attach centOS1</code></p>
+<p><strong>「注：」</strong> 在容器内使用 <strong>「exit」</strong> 退出容器时，<strong>「容器会停止」</strong></p>
+<p><strong>「方式2：」</strong></p>
+<p><code>docker exec -it $&#123;name&#125;/$&#123;id&#125; /bin/bash</code></p>
+<ul>
+<li>示例：</li>
+</ul>
+<p><code>docker exec -it centOS1 /bin/bash</code><strong>「注：」</strong> 在容器内使用 <strong>「exit」</strong> 退出容器时，<strong>「容器不会停止」</strong></p>
+<h4 id="3-查看容器"><a href="#3-查看容器" class="headerlink" title="3. 查看容器"></a>3. 查看容器</h4><ul>
+<li><strong>「查看正在运行的容器」</strong></li>
+</ul>
+<p><code>docker ps</code></p>
+<ul>
+<li><strong>「查看历史运行过的容器」</strong></li>
+</ul>
+<p><code>docker ps -a</code></p>
+<ul>
+<li><strong>「查看最后一次运行的容器」</strong></li>
+</ul>
+<p><code>docker ps -l</code></p>
+<h4 id="4-停止容器"><a href="#4-停止容器" class="headerlink" title="4. 停止容器"></a>4. 停止容器</h4><p><code>docker stop $&#123;name&#125;/$&#123;id&#125;</code></p>
+<h4 id="5-启动容器"><a href="#5-启动容器" class="headerlink" title="5. 启动容器"></a>5. 启动容器</h4><p><code>docker start $&#123;name&#125;/$&#123;id&#125;</code></p>
+<h4 id="6-删除容器"><a href="#6-删除容器" class="headerlink" title="6. 删除容器"></a>6. 删除容器</h4><ul>
+<li><strong>「删除一个容器」</strong></li>
+</ul>
+<p><code>docker rm $&#123;name&#125;/$&#123;id&#125;</code></p>
+<ul>
+<li><strong>「删除多个容器」</strong></li>
+</ul>
+<p><code>docker rm $&#123;name1&#125;/$&#123;id1&#125; $&#123;name2&#125;/$&#123;id2&#125; ...</code></p>
+<ul>
+<li><strong>「删除多个容器」</strong></li>
+</ul>
+<p><code>docker rm</code> <strong>「` docker ps -a -q`」</strong></p>
+<h4 id="7-查看容器元数据"><a href="#7-查看容器元数据" class="headerlink" title="7. 查看容器元数据"></a>7. 查看容器元数据</h4><p><code>docker inspect $&#123;name&#125;</code></p>
+<p><code>docker inspect -f =&#39;&#123;&#123;.NetworkSettings.IPAddress&#125;&#125;&#39; $&#123;name&#125;</code></p>
+<ul>
+<li><strong>「-f」</strong>：可用 <strong>「-format」</strong> 代替</li>
+</ul>
+<h4 id="8-查看容器日志"><a href="#8-查看容器日志" class="headerlink" title="8. 查看容器日志"></a>8. 查看容器日志</h4><p><code>docker logs $&#123;name&#125;/$&#123;id&#125;</code></p>
+<h4 id="9-文件拷贝"><a href="#9-文件拷贝" class="headerlink" title="9. 文件拷贝"></a>9. 文件拷贝</h4><p><code>docker cp 需要拷贝的文件或目录 容器名称:容器目录</code></p>
+<p><strong>「示例：」</strong><code>docker cp 1.txt c2:/root</code></p>
+<h4 id="10-目录挂载"><a href="#10-目录挂载" class="headerlink" title="10. 目录挂载"></a>10. 目录挂载</h4><p>目录挂载就是将宿主机的目录与容器内的努力进行映射，这样我们改变宿主机挂载目录下的内容时，容器内对应挂载目录里面的目录也会改变</p>
+<p><strong>「语句：」</strong> 使用 <strong>「-v」</strong> 进行挂载<code>docker run ‐id ‐‐name=centOS1 ‐v /opt/:/usr/local centos</code></p>
+<p>如果权限不足，我们应当使用：</p>
+<p><code>docker run ‐id ‐‐privileged=true ‐‐name=c4 ‐v /opt/:/usr/local/myhtml centos</code></p>
+<h3 id="三、镜像制作"><a href="#三、镜像制作" class="headerlink" title="三、镜像制作"></a>三、镜像制作</h3><p>我们不仅仅可以从 <strong>「Docker Hub」</strong> 上拉取镜像进行创建容器，我们还可以手动定制 <strong>「docker」</strong> 系统镜像，目前构建镜像的方式有两种：</p>
+<ul>
+<li>使用 <code>docker commit</code> 命令</li>
+<li>使用 <code>docker build</code> 配合 <code>Dockerfile</code> 文件</li>
+</ul>
+<h4 id="1-docker-commit"><a href="#1-docker-commit" class="headerlink" title="1. docker commit"></a>1. docker commit</h4><h5 id="1）「制作镜像」"><a href="#1）「制作镜像」" class="headerlink" title="1）「制作镜像」"></a>1）<strong>「制作镜像」</strong></h5><p>使用 <code>docker commit</code> 制作镜像前，我们需要一个正在运行的容器：</p>
+<ul>
+<li><strong>「步骤1」</strong></li>
+</ul>
+<p>我们需要先拉取一个 <strong>「centOS」</strong> 作为我们的基础镜像：<code>docker pull centos</code></p>
+<ul>
+<li><strong>「步骤2」</strong></li>
+</ul>
+<p>运行刚刚拉取到的镜像：<code>docker run -it --name=centOS1 centos:latest</code></p>
+<ul>
+<li><strong>「步骤3」</strong></li>
+</ul>
+<p>在容器中安装环境：</p>
+<ol>
+<li><strong>「tomcat」</strong></li>
+</ol>
+<p>上传 <strong>「tomcat」</strong> 安装包：</p>
+<p><code>docker cp apache‐tomcat‐8.5.54.tar.gz centOS1:/root/</code></p>
+<p>安装 <strong>「tomcat」</strong>：</p>
+<p><code>tar ‐zxvf apache‐tomcat‐8.5.54.tar.gz ‐C /usr/local/</code></p>
+<p>编辑<strong>「tomcat」</strong> 下的 <strong>「&#x2F;bin&#x2F;setclsspath.sh」</strong> 文件，添加如下内容：</p>
+<p><code>export JAVA_HOME=/usr/local/jdk1.8.0_161   export JRE_HOME=/usr/local/jdk1.8.0_161/jre   </code></p>
+<ol start="2">
+<li><strong>「JDK」</strong></li>
+</ol>
+<p>上传 <strong>「JDK」</strong> 安装包：</p>
+<p><code>docker cp jdk‐8u161‐linux‐x64.tar.gz centOS1:/root/</code></p>
+<p>安装 <strong>「JDK」</strong>：</p>
+<p><code>tar ‐zxvf jdk‐8u161‐linux‐x64.tar.gz ‐C /usr/local/</code></p>
+<p>编辑**&#x2F;etc&#x2F;profile** 文件，添加如下内容：</p>
+<p><code>JAVA_HOME=/usr/local/jdk1.8.0_161   export PATH=$JAVA_HOME/bin:$PATH   </code></p>
+<ul>
+<li>步骤4</li>
+</ul>
+<p>将我们正在运行的容器提交为一个新的镜像</p>
+<p><code>docker commit centOS1 cbucImage</code></p>
+<h5 id="2）「端口映射」"><a href="#2）「端口映射」" class="headerlink" title="2）「端口映射」"></a>2）<strong>「端口映射」</strong></h5><ul>
+<li><strong>「步骤1」</strong></li>
+</ul>
+<p>启动容器：<code>docker run ‐itd ‐‐name=t1 ‐p 8888:8080 cbucImage /bin/bash</code></p>
+<ul>
+<li><strong>「步骤2」</strong></li>
+</ul>
+<p>运行tomcat：<code>docker exec t1 /usr/local/apache‐tomcat‐7.0.47/bin/startup.sh</code></p>
+<p>这样子我们就可以通过 <code>http://ip:port</code> 来访问页面了</p>
+<h5 id="3）「镜像打包」"><a href="#3）「镜像打包」" class="headerlink" title="3）「镜像打包」"></a>3）<strong>「镜像打包」</strong></h5><p><strong>「打包镜像」</strong>：</p>
+<p><code>docker save ‐o /mnt/myImage.tar cbucImage</code></p>
+<p><strong>「在其他服务器中使用镜像：」</strong></p>
+<p><code>docker load -i myImage.tar</code></p>
+<h5 id="4）「容器打包」"><a href="#4）「容器打包」" class="headerlink" title="4）「容器打包」"></a>4）<strong>「容器打包」</strong></h5><p>打包容器：</p>
+<p><code>docker export ‐o /mnt/mycentos.tar centOS1</code></p>
+<p>导入容器：</p>
+<p><code>docker import mycentos.tar centOS2:latest</code></p>
+<h4 id="2-docker-builder"><a href="#2-docker-builder" class="headerlink" title="2. docker builder"></a>2. docker builder</h4><p><strong>「Dockerfile」</strong>使用基本的基于<strong>「DSL」</strong>语法的指令来构建一个Docker镜像，之后使用<strong>「docker」****「builder」</strong>命令基于该<strong>「Dockerfile」</strong>中的指令构建一个新的镜像</p>
+<h5 id="1）「DSL-语法」"><a href="#1）「DSL-语法」" class="headerlink" title="1）「DSL 语法」"></a>1）<strong>「DSL 语法」</strong></h5><p>关键词</p>
+<p>解释</p>
+<p>FROM  基础镜像</p>
+<p>MAINTAINER  维护者信息</p>
+<p>RUN	安装软件</p>
+<p>ADD    COPY 文件，会自动解压</p>
+<p>WORKEDIR     cd 切换工作目录</p>
+<p>VOLUME 目录挂载</p>
+<p>EXPOSE  内部服务端口</p>
+<p>CMD  执行 Dockerfile 中的命令</p>
+<p>ENV 设置环境变量</p>
+<p><strong>「解析：」</strong></p>
+<ul>
+<li><strong>「1. FROM」</strong></li>
+</ul>
+<p>指定基础 <strong>「image」</strong>。必须指定且需要在<strong>「Dockerfile」</strong>其他指令的前面。后续的指令都依赖于该指令指定的<strong>「image」</strong>。<strong>「FROM」</strong>指令指定的基础image可以是官方远程仓库中的，也可以位于本地仓库。FROM命令告诉<strong>「docker」</strong>我们构建的镜像是以哪个(发行版)镜像为基础的。如果在同一个<strong>「Dockerfile」</strong>中创建多个镜像时，可以使用多个 <strong>「FROM」</strong> 指令。</p>
+<p><strong>「格式：」</strong></p>
+<p><code>FROM &lt;image&gt;</code> 或者 <code>FROM &lt;image&gt;:&lt;tag&gt;</code></p>
+<ul>
+<li><strong>「2. MAINTAINER」</strong></li>
+</ul>
+<p>指定镜像创建者信息。用于将<strong>「image」</strong>的制作者相关的信息写入到<strong>「image」</strong>中。当我们对该<strong>「image」</strong>执行<strong>「docker inspect」</strong>命令时，输出中有相应的字段记录该信息。</p>
+<p><strong>「格式：」</strong></p>
+<p><code>MAINTAINER &lt;name&gt;</code></p>
+<ul>
+<li><strong>「3. RUN」</strong></li>
+</ul>
+<p>安装软件使用。可以运行任何被基础image<strong>「支持的命令」</strong>。如基础<strong>「image」</strong>选择了<strong>「ubuntu」</strong>，那么软 件管理部分只能使用<strong>「ubuntu」</strong>的命令。</p>
+<p><strong>「格式：」</strong></p>
+<p><code>RUN &lt;command&gt;</code></p>
+<ul>
+<li><strong>「4. CMD」</strong></li>
+</ul>
+<p>设置 <strong>「container」</strong> 启动时执行的操作。该操作可以是执行自定义脚本，也可以是执行系统命令。该指令只能在文件中存在一次，如果有多个，则只执行最后一条。</p>
+<p><strong>「格式：」</strong></p>
+<p><code>CMD command param1 param2</code></p>
+<ul>
+<li><strong>「5. ENTRYPOINT」</strong></li>
+</ul>
+<p>设置<strong>「container」</strong>启动时执行的操作，可以多次设置，但是只有最后一个有效。</p>
+<p><strong>「格式：」</strong><code>ENTRYPOINT command param1 param2</code></p>
+<p><strong>「场景1：」</strong></p>
+<p>独自使用时，如果你还使用了<strong>「CMD」</strong>命令且<strong>「CMD」</strong>是一个完整的可执行的命令，那么<strong>「CMD」</strong>指令和<strong>「ENTRYPOINT」</strong>会互相覆盖，只有最后一个<strong>「CMD」</strong>或者<strong>「ENTRYPOINT」</strong>有效。</p>
+<p>例：这个时候只有 <strong>「ENTRYPOINT」</strong> 会执行</p>
+<p><code>CMD ls -l   ENTRYPOINT ls ‐l   </code></p>
+<p><strong>「场景2：」</strong></p>
+<p>和<strong>「CMD」</strong>指令配合使用来指定<strong>「ENTRYPOINT」</strong>的默认参数，这时<strong>「CMD」</strong>指令不是一个完整的可执行命令，仅仅是参数部分。<strong>「ENTRYPOINT」</strong>指令只能使用<strong>「JSON」</strong>方式指定执行命令，而不能指定参数。</p>
+<p>例：</p>
+<p><code>CMD [&quot;‐l&quot;]   ENTRYPOINT [&quot;/usr/bin/ls&quot;]   </code></p>
+<ul>
+<li><strong>「6. USER」</strong></li>
+</ul>
+<p>设置 <strong>「container」</strong> 容器的用户，默认是 <strong>「root」</strong> 用户</p>
+<p><strong>「格式：」</strong></p>
+<p><code># 指定memcached的运行用户   ENTRYPOINT [&quot;memcached&quot;]   USER daemon   或者   ENTRYPOINT [&quot;memcached&quot;, &quot;‐u&quot;, &quot;daemon&quot;]   </code></p>
+<ul>
+<li><strong>「7. EXPOSE」</strong></li>
+</ul>
+<p>指定容器需要映射到宿主机器的端口。当你需要访问容器的时候，可以不是用容器的<strong>「IP」</strong>地址而是使用宿主机器的<strong>「IP」</strong>地址和映射后的端口。要完成整个操作需要两个步骤，首先在Dockerfile使用<strong>「EXPOSE」</strong>设置需要映射的容器端口，然后在运行容器的时候指定 <strong>「‐p」</strong> 选项加上<strong>「EXPOSE」</strong>设置的端口，这样<strong>「EXPOSE」</strong>设置的端口号会被随机映射成宿主机器中的一个端口号。也可以指定需要映射到宿主机器的那个端口，这时要确保宿主机器上的端口号没有被使用。<strong>「EXPOSE」</strong>指令可以一次设置多个端口号，相应的运行容器的时候，可以配套的多次使用 <strong>「‐p」</strong> 选项。</p>
+<p><strong>「格式：」</strong></p>
+<p><code>EXPOSE &lt;port&gt; [&lt;port&gt;...]   # 映射一个端口   EXPOSE port1   # 相应的运行容器使用的命令   docker run ‐p port1 image   # 映射多个端口   EXPOSE port1 port2 port3   # 相应的运行容器使用的命令   docker run ‐p port1 ‐p port2 ‐p port3 image   # 还可以指定需要映射到宿主机器上的某个端口号   docker run ‐p host_port1:port1 ‐p host_port2:port2 ‐p host_port3:port3 image   </code></p>
+<ul>
+<li><strong>「8. ENV」</strong></li>
+</ul>
+<p>用于设置环境变量。设置了后，后续的<strong>「RUN」</strong>命令都可以使用，<strong>「container」</strong>启动后，可以通过<strong>「docker inspect」</strong> 查看这个环境变量，也可以通过在<strong>「docker run ‐‐env key&#x3D;value」</strong>时设置或修改环境变量。</p>
+<p><strong>「格式：」</strong></p>
+<p><code>ENV &lt;key&gt; &lt;value&gt;   # 假如你安装了JAVA程序，需要设置JAVA_HOME，那么可以在Dockerfile中这样写：   ENV JAVA_HOME /path/java/jdk   </code></p>
+<ul>
+<li><strong>「9. ADD」</strong></li>
+</ul>
+<p>从<strong>「src」</strong>复制文件到<strong>「container」</strong>的 <strong>「dest」</strong> 路径。主要用于将宿主机中的文件添加到镜像中。</p>
+<p><strong>「格式：」</strong></p>
+<p><code># &lt;src&gt; 是相对被构建的源目录的相对路径，可以是文件或目录的路径，也可以是一个远程的文件url; &lt;dest&gt; 是container中的绝对路径   ADD &lt;src&gt; &lt;dest&gt;   </code></p>
+<ul>
+<li><strong>「10. VOLUMN」</strong></li>
+</ul>
+<p>指定挂载点。使容器中的一个目录具有持久化存储数据的功能，该目录可以被容器本身使用， 也可以共享给其他容器使用。</p>
+<p><strong>「格式：」</strong></p>
+<p><code>VOLUME [&quot;&lt;mountpoint&gt;&quot;]   # 例：VOLUME [&quot;/tmp/data&quot;]   </code></p>
+<p>运行通过该<strong>「Dockerfile」</strong>生成<strong>「image」</strong>的容器，<strong>「&#x2F;tmp&#x2F;data」</strong>目录中的数据在容器关闭后，里面的数据还存在。</p>
+<ul>
+<li><strong>「11. WORKDIR」</strong></li>
+</ul>
+<p>切换目录，可以多次切换(相当于<strong>「cd」</strong>命令)，对<strong>「RUN，CMD，ENTRYPOINT」</strong>生效。</p>
+<p><strong>「格式：」</strong></p>
+<p><code>WORKDIR /path/to/workdir   # 在/p1, /p2下执行vim a.txt   WORKDIR /p1 WORKDIR p2 RUN vim a.txt   </code></p>
+<ul>
+<li><strong>「12. ONBUILD」</strong></li>
+</ul>
+<p>在子镜像中执行</p>
+<p><strong>「格式：」</strong></p>
+<p><code># 指定的命令在构建镜像时并不执行，而是在它的子镜像中执行   ONBUILD &lt;Dockerfile关键字&gt;   </code></p>
+<h5 id="2）「创建镜像」"><a href="#2）「创建镜像」" class="headerlink" title="2）「创建镜像」"></a>2）<strong>「创建镜像」</strong></h5><p>我们编辑好 <strong>「Dockerfile」</strong> 文件后，在 <strong>「Dockerfile」</strong> 所在目录输入指令：</p>
+<p><code>docker build ‐t cbucImage:v1.0.0 ‐‐rm=true .   </code></p>
+<p><strong>「注：」</strong></p>
+<ul>
+<li><strong>「‐t」</strong> 表示选择指定生成镜像的用户名，仓库名和tag</li>
+<li><strong>「‐‐rm&#x3D;true」</strong> 表示指定在生成镜像过程中删除中间产生的临时容器。</li>
+<li>上面构建命令中最后的 <strong>「.」</strong> 符号不要漏了，表示使用当前目录下的<strong>「Dockerfile」</strong>构建镜像</li>
+</ul>
+<h4 id="3-运行镜像"><a href="#3-运行镜像" class="headerlink" title="3. 运行镜像"></a>3. 运行镜像</h4><p>我们创建好镜像后，便可以使用以下指令运行：</p>
+<p><code>docker run ‐itd ‐‐name centos1 ‐p 8888:80 cbucImage /bin/bash   </code></p>
+<p>使用以下命令进入容器：</p>
+<p><code>docker exec -it centos1 /bin/bash   </code></p>
+<p><strong>「[END]」</strong></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>eric汉化</title>
+    <url>/2023/06/24/eric%E6%B1%89%E5%8C%96/</url>
+    <content><![CDATA[<head>
+  <meta charset="utf-8">
+  <meta name="referrer" content="no-referrer" />
+  <title>某eric汉化</title>
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><p>网上的一堆教程真是够垃圾，复杂而又无效，明明是简单的事情，偏偏要搞得那么复杂。<br>
+话不多说，简单技巧如下：</p>
+<p><img src="https://img-blog.csdnimg.cn/20190608221440279.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>首先<br>
+下载图片相关汉化包，<br>
+其次<br>
+放在其都是.qm的文件夹，如下图所示<br>
+汉化成功!<br>
+<br>
+<img src="https://img-blog.csdnimg.cn/20201005223233514.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70#pic_center" alt=""><img src="https://img-blog.csdnimg.cn/20190608221850982.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>
+附上成功界面<img src="https://img-blog.csdnimg.cn/20190608221935696.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FoaGpoaGo=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+</div>
+</body>
+
+
+]]></content>
+  </entry>
+  <entry>
+    <title>Get请求如何正确的传递数组</title>
+    <url>/2023/07/16/get-array/</url>
+    <content><![CDATA[<h1 id="Get请求如何正确的传递数组"><a href="#Get请求如何正确的传递数组" class="headerlink" title="Get请求如何正确的传递数组"></a>Get请求如何正确的传递数组</h1><p>假如现在后端有这么一个接口&#x2F;users，前端可以通过传roleIds数组来查询这些角色关联的用户，后端的接口和参数定义如下：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//Controller @GetMapping(&quot;/users&quot;) public R&lt;?&gt; list(ReqVo vo) &#123;   //... &#125;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//ReqVo @Data public class ReqVo &#123;   private List&lt;String&gt; roleIds; &#125;</span></span><br></pre></td></tr></table></figure>
+<p>那么我们可以有以下几种方式来传递数组：</p>
+<ul>
+<li>方式一</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">GET http://localhost:8080/users?roleIds=1&amp;roleIds=2</span><br></pre></td></tr></table></figure>
+<ul>
+<li>方式二</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">GET http://localhost:8080/users?roleIds=1,2</span><br></pre></td></tr></table></figure>
+<ul>
+<li>方式三</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">GET http://localhost:8080/users?roleIds[0]=1&amp;roleIds[1]=2</span><br></pre></td></tr></table></figure>
+<ul>
+<li>方式四</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">GET http://localhost:8080/users?roleIds[]=1&amp;roleIds[]=2</span><br></pre></td></tr></table></figure>
+<p>需要注意的是，最后两种方式带有中括号<code>[]</code>，<code>[]</code>在url中属于功能性字符，前端需要使用<code>encodeURIComponent()</code>函数转义，否则在高版本tomcat中会出现_400 Bad Request_错误</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Git常用命令</title>
+    <url>/2023/06/20/gitcomend/</url>
+    <content><![CDATA[<table>
+<thead>
+<tr>
+<th>目的</th>
+<th>GIT命令</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>第一次初始化仓库</td>
+<td><code>git init</code><br><code>git add .</code><br><code>git commit -m [描述字体，例如 &quot;first commit &quot;]</code><br><code>git remote add origin [仓库地址]</code><br><code>git push -u origin [分支名称，一般第一次有默认的master]</code></td>
+</tr>
+<tr>
+<td>拉取远程分支到本地</td>
+<td><code>git fetch origin [分支名称]</code></td>
+</tr>
+<tr>
+<td>提送到git</td>
+<td><code>git push origin [分支名称]</code></td>
+</tr>
+<tr>
+<td>删除本地分支</td>
+<td><code>git branch -d [分支的名称]</code></td>
+</tr>
+<tr>
+<td>删除远程分支</td>
+<td><code>git push origin --delete [分支的名称]</code></td>
+</tr>
+<tr>
+<td>查看远程分支与本地分支</td>
+<td><code>git branch -a</code></td>
+</tr>
+<tr>
+<td>合并分支</td>
+<td><code>git pull origin [目标分支]</code><br><code>git merge [被合分支]</code><br><code>git push origin [目标分支]</code></td>
+</tr>
+<tr>
+<td>更新远程分支列表</td>
+<td><code>git remote update origin --prune</code></td>
+</tr>
+<tr>
+<td>查看所有分支</td>
+<td><code>git branch -a</code></td>
+</tr>
+<tr>
+<td>撤销提交</td>
+<td><code>git reset --soft [HEAD^ | HEAD~1 | HEAD ~&lt;n&gt;]</code></td>
+</tr>
+<tr>
+<td>创建本地分支</td>
+<td><code>git branch [分支名称]</code></td>
+</tr>
+<tr>
+<td>切换分支</td>
+<td><code>git checkout [分支名称]</code></td>
+</tr>
+<tr>
+<td>创建并切换到创建的分支</td>
+<td><code>git checkout -b [分支名称]</code></td>
+</tr>
+<tr>
+<td>根据已有的远程分支创建新的分支</td>
+<td><code>git checkout -b [创建的分支名] origin/[远程的分支名称]</code></td>
+</tr>
+<tr>
+<td>删除分支</td>
+<td><code>git branch -d [分支名称]</code></td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Git常用命令</category>
+      </categories>
+      <tags>
+        <tag>基础</tag>
+        <tag>Git常用</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>lodash常用函数</title>
     <url>/2023/06/24/lodash/</url>
     <content><![CDATA[<p><a name="dOB5s"></a></p>
@@ -470,6 +783,15 @@
 ]]></content>
   </entry>
   <entry>
+    <title>npm发布包</title>
+    <url>/2023/07/26/summitnpm/</url>
+    <content><![CDATA[<h1 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h1><ol>
+<li>第一次发布包<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm publish </span><br></pre></td></tr></table></figure></li>
+<li>第二次发布包<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm version patch</span><br><span class="line">npm publish</span><br></pre></td></tr></table></figure></li>
+</ol>
+]]></content>
+  </entry>
+  <entry>
     <title>unicloud 常用查表</title>
     <url>/2023/06/24/unicloud%20%E5%B8%B8%E7%94%A8%E6%9F%A5%E8%A1%A8/</url>
     <content><![CDATA[<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 直接关联多个表为虚拟联表再进行查询，旧写法，目前更推荐使用getTemp进行联表查询</span></span><br><span class="line"><span class="keyword">const</span> res = <span class="keyword">await</span> db.<span class="title function_">collection</span>(<span class="string">&#x27;order,book&#x27;</span>).<span class="title function_">where</span>(<span class="string">&#x27;_id==&quot;1&quot;&#x27;</span>).<span class="title function_">get</span>() <span class="comment">// 直接关联order和book之后再过滤</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 使用getTemp先过滤处理获取临时表再联表查询，推荐用法</span></span><br><span class="line"><span class="keyword">const</span> order = db.<span class="title function_">collection</span>(<span class="string">&#x27;order&#x27;</span>).<span class="title function_">where</span>(<span class="string">&#x27;_id==&quot;1&quot;&#x27;</span>).<span class="title function_">getTemp</span>() <span class="comment">// 注意结尾的方法是getTemp，对order表过滤得到临时表</span></span><br><span class="line"><span class="keyword">const</span> res = <span class="keyword">await</span> db.<span class="title function_">collection</span>(order, <span class="string">&#x27;book&#x27;</span>).<span class="title function_">get</span>() <span class="comment">// 将获取的order表的临时表和book表进行联表查询</span></span><br><span class="line"></span><br><span class="line">第二种比较好</span><br><span class="line"></span><br><span class="line"><span class="comment">// 客户端联表查询</span></span><br><span class="line"><span class="keyword">const</span> db = uniCloud.<span class="title function_">database</span>()</span><br><span class="line"><span class="keyword">const</span> order = db.<span class="title function_">collection</span>(<span class="string">&#x27;order&#x27;</span>).<span class="title function_">field</span>(<span class="string">&#x27;book_id,quantity&#x27;</span>).<span class="title function_">getTemp</span>() <span class="comment">// 临时表field方法内需要包含关联字段，否则无法建立关联关系</span></span><br><span class="line"><span class="keyword">const</span> book = db.<span class="title function_">collection</span>(<span class="string">&#x27;book&#x27;</span>).<span class="title function_">field</span>(<span class="string">&#x27;_id,title,author&#x27;</span>).<span class="title function_">getTemp</span>() <span class="comment">// 临时表field方法内需要包含关联字段，否则无法建立关联关系</span></span><br><span class="line">db.<span class="title function_">collection</span>(order, book) <span class="comment">// 注意collection方法内需要传入所有用到的表名，用逗号分隔，主表需要放在第一位</span></span><br><span class="line">  .<span class="title function_">where</span>(<span class="string">&#x27;book_id.title == &quot;三国演义&quot;&#x27;</span>) <span class="comment">// 查询order表内书名为“三国演义”的订单</span></span><br><span class="line">  .<span class="title function_">get</span>()</span><br><span class="line">  .<span class="title function_">then</span>(<span class="function"><span class="params">res</span> =&gt;</span> &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(res);</span><br><span class="line">  &#125;).<span class="title function_">catch</span>(<span class="function"><span class="params">err</span> =&gt;</span> &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">error</span>(err)</span><br><span class="line">  &#125;)</span><br><span class="line"></span><br><span class="line"><span class="comment">// 直接使用虚拟联表查询</span></span><br><span class="line"><span class="keyword">const</span> res = <span class="keyword">await</span> db.<span class="title function_">collection</span>(<span class="string">&#x27;article,comment&#x27;</span>)</span><br><span class="line">.<span class="title function_">where</span>(<span class="string">&#x27;article_id._value==&quot;1&quot;&#x27;</span>)</span><br><span class="line">.<span class="title function_">get</span>()</span><br><span class="line"></span><br><span class="line"><span class="comment">// 先过滤article表，再获取虚拟联表联表获取评论</span></span><br><span class="line"><span class="keyword">const</span> article = db.<span class="title function_">collection</span>(<span class="string">&#x27;article&#x27;</span>).<span class="title function_">where</span>(<span class="string">&#x27;article_id==&quot;1&quot;&#x27;</span>).<span class="title function_">getTemp</span>() <span class="comment">// 注意是getTemp不是get</span></span><br><span class="line"><span class="keyword">const</span> res = <span class="keyword">await</span> db.<span class="title function_">collection</span>(article, <span class="string">&#x27;comment&#x27;</span>).<span class="title function_">get</span>()</span><br></pre></td></tr></table></figure>
@@ -481,15 +803,6 @@
         <tag>unicloud</tag>
         <tag>常用查表</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>npm发布包</title>
-    <url>/2023/07/26/summitnpm/</url>
-    <content><![CDATA[<h1 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h1><ol>
-<li>第一次发布包<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm publish </span><br></pre></td></tr></table></figure></li>
-<li>第二次发布包<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm version patch</span><br><span class="line">npm publish</span><br></pre></td></tr></table></figure></li>
-</ol>
-]]></content>
   </entry>
   <entry>
     <title>博客应用其他地方图片403问题</title>
@@ -529,6 +842,18 @@
         <tag>常识</tag>
         <tag>技巧</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>批量改文件名与爬虫</title>
+    <url>/2023/06/24/%E6%89%B9%E9%87%8F%E6%94%B9%E6%96%87%E4%BB%B6%E5%90%8D%E4%B8%8E%E7%88%AC%E8%99%AB/</url>
+    <content><![CDATA[<meta name="referrer" content="no-referrer" />
+批量该文件名：
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">import os</span><br><span class="line"></span><br><span class="line">path = input(&#x27;请输入文件路径(结尾加上/)：&#x27;)</span><br><span class="line"></span><br><span class="line"># 获取该目录下所有文件，存入列表中</span><br><span class="line">fileList = os.listdir(path)</span><br><span class="line"></span><br><span class="line">n = 0</span><br><span class="line">for i in fileList:</span><br><span class="line">    # 设置旧文件名（就是路径+文件名）</span><br><span class="line">    oldname = path + os.sep + fileList[n]  # os.sep添加系统分隔符</span><br><span class="line"></span><br><span class="line">    # 设置新文件名</span><br><span class="line">    newname = path  + os.sep + &#x27;ZhaoLiying&#x27; + str(n + 1) + &#x27;.JPG&#x27;</span><br><span class="line"></span><br><span class="line">    os.rename(oldname, newname)  # 用os模块中的rename方法对文件改名</span><br><span class="line">    print(oldname, &#x27;======&gt;&#x27;, newname)</span><br><span class="line"></span><br><span class="line">    n += 1</span><br></pre></td></tr></table></figure>
+爬虫：
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">import urllib.request as ur</span><br><span class="line">import os</span><br><span class="line">import string</span><br><span class="line">import threading</span><br><span class="line">import re</span><br><span class="line">import requests</span><br><span class="line">import sys</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def get_image(keyworld, pn, rn, type, i):</span><br><span class="line">    try:</span><br><span class="line">        url = ur.quote(</span><br><span class="line">            &#x27;https://image.baidu.com/search/acjson?tn=resultjson_com&amp;ipn=rj&amp;ct=201326592&amp;is=&amp;fp=result&#x27;</span><br><span class="line">            &#x27;&amp;queryWord=&#x27; + keyworld + &#x27;&amp;cl=2&amp;lm=-1&amp;ie=utf-8&amp;oe=utf-8&amp;adpicid=&amp;st=-1&amp;z=&amp;ic=0&amp;word=&#x27; + keyworld +</span><br><span class="line">            &#x27;&amp;s=&amp;se=&amp;tab=&amp;width=&amp;height=&amp;face=0&amp;istype=2&amp;qc=&amp;nc=1&amp;fr=&amp;pn=&#x27; + str(pn) + &#x27;&amp;rn=&#x27; + str(</span><br><span class="line">                rn) + &#x27;&amp;gsm=1e&amp;1529504588260=&#x27;,</span><br><span class="line">            safe=string.printable)</span><br><span class="line">        req = ur.Request(url)</span><br><span class="line">        req.add_header(&quot;User-Agent&quot;, &quot;Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0&quot;)</span><br><span class="line">        html1 = ur.urlopen(url, timeout=600).read()</span><br><span class="line">        html1 = str(html1)</span><br><span class="line"></span><br><span class="line">        pat1 = &#x27;&quot;thumbURL&quot;:&quot;.+?&quot;,&#x27;</span><br><span class="line">        pat2 = &#x27;https:.+?.jpg&#x27;</span><br><span class="line">        thumbURLs = re.compile(pat1).findall(html1)</span><br><span class="line">        imageURLs = re.compile(pat2).findall(str(thumbURLs))</span><br><span class="line"></span><br><span class="line">        save_dir = type + &#x27;/&#x27; + type + i + &#x27;/&#x27;</span><br><span class="line">        if os.path.exists(save_dir) is False:</span><br><span class="line">            os.makedirs(save_dir)</span><br><span class="line">        num = 1</span><br><span class="line">        for index, imageurl in enumerate(imageURLs):</span><br><span class="line">            try:</span><br><span class="line">                data = ur.urlopen(imageurl, timeout=20).read()</span><br><span class="line">                fd = open(save_dir + type + &#x27;_&#x27; + str(pn) + &#x27;_&#x27; + str(index) + &#x27;.jpg&#x27;, &quot;wb&quot;)</span><br><span class="line">                fd.write(data)</span><br><span class="line">                fd.close()</span><br><span class="line">                sys.stdout.write(&#x27;下载成功%s\r&#x27; % num)</span><br><span class="line">                sys.stdout.flush()</span><br><span class="line">                num = num + 1</span><br><span class="line">            except Exception as e:</span><br><span class="line">                print(&#x27;保存图片异常:&#x27; + e)</span><br><span class="line">    except Exception as e:</span><br><span class="line">        print(&#x27;获取图片url异常:&#x27; + e)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">if __name__ == &#x27;__main__&#x27;:</span><br><span class="line">    ai = input(&quot;Input key: &quot;)</span><br><span class="line">    bi = input(&quot;Input num: &quot;)</span><br><span class="line">    for i in range(int(bi)):</span><br><span class="line">        get_image(ai, i * 50, 50, ai, str(i))</span><br><span class="line">    # tA = ThreadA()</span><br><span class="line">    # tA.start()</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+]]></content>
   </entry>
   <entry>
     <title>开源中国charm插件安装</title>
@@ -578,15 +903,103 @@
       </tags>
   </entry>
   <entry>
-    <title>批量改文件名与爬虫</title>
-    <url>/2023/06/24/%E6%89%B9%E9%87%8F%E6%94%B9%E6%96%87%E4%BB%B6%E5%90%8D%E4%B8%8E%E7%88%AC%E8%99%AB/</url>
-    <content><![CDATA[<meta name="referrer" content="no-referrer" />
-批量该文件名：
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">import os</span><br><span class="line"></span><br><span class="line">path = input(&#x27;请输入文件路径(结尾加上/)：&#x27;)</span><br><span class="line"></span><br><span class="line"># 获取该目录下所有文件，存入列表中</span><br><span class="line">fileList = os.listdir(path)</span><br><span class="line"></span><br><span class="line">n = 0</span><br><span class="line">for i in fileList:</span><br><span class="line">    # 设置旧文件名（就是路径+文件名）</span><br><span class="line">    oldname = path + os.sep + fileList[n]  # os.sep添加系统分隔符</span><br><span class="line"></span><br><span class="line">    # 设置新文件名</span><br><span class="line">    newname = path  + os.sep + &#x27;ZhaoLiying&#x27; + str(n + 1) + &#x27;.JPG&#x27;</span><br><span class="line"></span><br><span class="line">    os.rename(oldname, newname)  # 用os模块中的rename方法对文件改名</span><br><span class="line">    print(oldname, &#x27;======&gt;&#x27;, newname)</span><br><span class="line"></span><br><span class="line">    n += 1</span><br></pre></td></tr></table></figure>
-爬虫：
+    <title>服务器全局代理clash</title>
+    <url>/2023/08/22/%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%85%A8%E5%B1%80%E4%BB%A3%E7%90%86clash/</url>
+    <content><![CDATA[<h1 id="目的介绍"><a href="#目的介绍" class="headerlink" title="目的介绍"></a>目的介绍</h1><p>主要是为了解决我们在服务器上下载GitHub等一些国外资源速度慢的问题。</p>
+<h1 id="使用须知"><a href="#使用须知" class="headerlink" title="使用须知"></a>使用须知</h1><ul>
+<li>运行本项目建议使用root用户，或者使用 sudo 提权。</li>
+<li>使用过程中如遇到问题，请查看开源项目 <a href="https://github.com/wanhebin/clash-for-linux.git">https://github.com/wanhebin/clash-for-linux.git</a></li>
+<li>本项目是基于 <a href="https://github.com/Dreamacro/clash">clash</a> 、<a href="https://github.com/haishanh/yacd">yacd</a> 进行的配置整合，关于clash、yacd的详细配置请去原项目查看。</li>
+<li>此项目不提供任何订阅信息，请自行准备Clash订阅地址。</li>
+<li>运行前请手动更改<code>.env</code>文件中的<code>CLASH_URL</code>变量值，否则无法正常运行。</li>
+<li>当前在RHEL系列和Debian系列Linux系统中测试过，其他系列可能需要适当修改脚本。</li>
+<li>支持 x86_64&#x2F;aarch64 平台</li>
+</ul>
+<h1 id="使用教程"><a href="#使用教程" class="headerlink" title="使用教程"></a>使用教程</h1><h2 id="下载项目"><a href="#下载项目" class="headerlink" title="下载项目"></a>下载项目</h2><p>下载项目</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/wanhebin/clash-for-linux.git</span><br></pre></td></tr></table></figure>
 
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">import urllib.request as ur</span><br><span class="line">import os</span><br><span class="line">import string</span><br><span class="line">import threading</span><br><span class="line">import re</span><br><span class="line">import requests</span><br><span class="line">import sys</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def get_image(keyworld, pn, rn, type, i):</span><br><span class="line">    try:</span><br><span class="line">        url = ur.quote(</span><br><span class="line">            &#x27;https://image.baidu.com/search/acjson?tn=resultjson_com&amp;ipn=rj&amp;ct=201326592&amp;is=&amp;fp=result&#x27;</span><br><span class="line">            &#x27;&amp;queryWord=&#x27; + keyworld + &#x27;&amp;cl=2&amp;lm=-1&amp;ie=utf-8&amp;oe=utf-8&amp;adpicid=&amp;st=-1&amp;z=&amp;ic=0&amp;word=&#x27; + keyworld +</span><br><span class="line">            &#x27;&amp;s=&amp;se=&amp;tab=&amp;width=&amp;height=&amp;face=0&amp;istype=2&amp;qc=&amp;nc=1&amp;fr=&amp;pn=&#x27; + str(pn) + &#x27;&amp;rn=&#x27; + str(</span><br><span class="line">                rn) + &#x27;&amp;gsm=1e&amp;1529504588260=&#x27;,</span><br><span class="line">            safe=string.printable)</span><br><span class="line">        req = ur.Request(url)</span><br><span class="line">        req.add_header(&quot;User-Agent&quot;, &quot;Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0&quot;)</span><br><span class="line">        html1 = ur.urlopen(url, timeout=600).read()</span><br><span class="line">        html1 = str(html1)</span><br><span class="line"></span><br><span class="line">        pat1 = &#x27;&quot;thumbURL&quot;:&quot;.+?&quot;,&#x27;</span><br><span class="line">        pat2 = &#x27;https:.+?.jpg&#x27;</span><br><span class="line">        thumbURLs = re.compile(pat1).findall(html1)</span><br><span class="line">        imageURLs = re.compile(pat2).findall(str(thumbURLs))</span><br><span class="line"></span><br><span class="line">        save_dir = type + &#x27;/&#x27; + type + i + &#x27;/&#x27;</span><br><span class="line">        if os.path.exists(save_dir) is False:</span><br><span class="line">            os.makedirs(save_dir)</span><br><span class="line">        num = 1</span><br><span class="line">        for index, imageurl in enumerate(imageURLs):</span><br><span class="line">            try:</span><br><span class="line">                data = ur.urlopen(imageurl, timeout=20).read()</span><br><span class="line">                fd = open(save_dir + type + &#x27;_&#x27; + str(pn) + &#x27;_&#x27; + str(index) + &#x27;.jpg&#x27;, &quot;wb&quot;)</span><br><span class="line">                fd.write(data)</span><br><span class="line">                fd.close()</span><br><span class="line">                sys.stdout.write(&#x27;下载成功%s\r&#x27; % num)</span><br><span class="line">                sys.stdout.flush()</span><br><span class="line">                num = num + 1</span><br><span class="line">            except Exception as e:</span><br><span class="line">                print(&#x27;保存图片异常:&#x27; + e)</span><br><span class="line">    except Exception as e:</span><br><span class="line">        print(&#x27;获取图片url异常:&#x27; + e)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">if __name__ == &#x27;__main__&#x27;:</span><br><span class="line">    ai = input(&quot;Input key: &quot;)</span><br><span class="line">    bi = input(&quot;Input num: &quot;)</span><br><span class="line">    for i in range(int(bi)):</span><br><span class="line">        get_image(ai, i * 50, 50, ai, str(i))</span><br><span class="line">    # tA = ThreadA()</span><br><span class="line">    # tA.start()</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>进入到项目目录，编辑<code>.env</code>文件，修改变量<code>CLASH_URL</code>的值。</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> clash-for-linux</span><br><span class="line">$ vim .<span class="built_in">env</span></span><br></pre></td></tr></table></figure>
 
+<blockquote>
+<p><strong>注意：</strong> <code>.env</code> 文件中的变量 <code>CLASH_SECRET</code> 为自定义 Clash Secret，值为空时，脚本将自动生成随机字符串。</p>
+</blockquote>
+<h2 id="启动程序"><a href="#启动程序" class="headerlink" title="启动程序"></a>启动程序</h2><p>直接运行脚本文件<code>start.sh</code></p>
+<ul>
+<li>进入项目目录</li>
+</ul>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> clash-for-linux</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>运行启动脚本</li>
+</ul>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">proxy_offSecret$ sudo bash start.sh</span><br><span class="line"></span><br><span class="line">正在检测订阅地址...</span><br><span class="line">Clash订阅地址可访问！                                      [  OK  ]</span><br><span class="line"></span><br><span class="line">正在下载Clash配置文件...</span><br><span class="line">配置文件config.yaml下载成功！                              [  OK  ]</span><br><span class="line"></span><br><span class="line">正在启动Clash服务...</span><br><span class="line">服务启动成功！                                             [  OK  ]</span><br><span class="line"></span><br><span class="line">Clash Dashboard 访问地址：http://&lt;ip&gt;:9090/ui</span><br><span class="line">Secret：xxxxxxxxxxxxx</span><br><span class="line"></span><br><span class="line">请执行以下命令加载环境变量: <span class="built_in">source</span> /etc/profile.d/clash.sh</span><br><span class="line"></span><br><span class="line">请执行以下命令开启系统代理: proxy_on</span><br><span class="line"></span><br><span class="line">若要临时关闭系统代理，请执行: proxy_off</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">source</span> /etc/profile.d/clash.sh</span><br><span class="line">$ proxy_on</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>检查服务端口</li>
+</ul>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">$ netstat -tln | grep -E <span class="string">&#x27;9090|789.&#x27;</span></span><br><span class="line">tcp        0      0 127.0.0.1:9090          0.0.0.0:*               LISTEN     </span><br><span class="line">tcp6       0      0 :::7890                 :::*                    LISTEN     </span><br><span class="line">tcp6       0      0 :::7891                 :::*                    LISTEN     </span><br><span class="line">tcp6       0      0 :::7892                 :::*                    LISTEN</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>检查环境变量</li>
+</ul>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">env</span> | grep -E <span class="string">&#x27;http_proxy|https_proxy&#x27;</span></span><br><span class="line">http_proxy=http://127.0.0.1:7890</span><br><span class="line">https_proxy=http://127.0.0.1:7890</span><br></pre></td></tr></table></figure>
+
+<p>以上步鄹如果正常，说明服务clash程序启动成功，现在就可以体验高速下载github资源了。</p>
+<blockquote>
+<p>注意：**</p>
+<ol>
+<li>Secret值记得提前保存下来，不然待会可能会很狼狈地在执行一次命令。</li>
+<li>代理只要没proxy_off就不会停。但是此时仅仅代理了当前的“cmd”，“cmd”重新打开代理会生效，可以考虑全局代理，就没有该烦恼</li>
+</ol>
+</blockquote>
+<h2 id="重启程序"><a href="#重启程序" class="headerlink" title="重启程序"></a>重启程序</h2><p>如果需要对Clash配置进行修改，请修改 <code>conf/config.yaml</code> 文件。然后运行 <code>restart.sh</code> 脚本进行重启。</p>
+<blockquote>
+<p><strong>注意：</strong><br>重启脚本 <code>restart.sh</code> 不会更新订阅信息。</p>
+</blockquote>
+<h2 id="停止程序"><a href="#停止程序" class="headerlink" title="停止程序"></a>停止程序</h2><ul>
+<li>进入项目目录</li>
+</ul>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> clash-for-linux</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>关闭服务</li>
+</ul>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">$ sudo bash shutdown.sh</span><br><span class="line"></span><br><span class="line">服务关闭成功，请执行以下命令关闭系统代理：proxy_off</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">$ proxy_off</span><br></pre></td></tr></table></figure>
+
+<p>然后检查程序端口、进程以及环境变量<code>http_proxy|https_proxy</code>，若都没则说明服务正常关闭。</p>
+<h2 id="Clash-Dashboard"><a href="#Clash-Dashboard" class="headerlink" title="Clash Dashboard"></a>Clash Dashboard</h2><ul>
+<li>访问 Clash Dashboard</li>
+</ul>
+<p><del>通过浏览器访问 <code>start.sh</code> 执行成功后输出的地址，例如：<a href="http://192.168.0.1:9090/ui">http://192.168.0.1:9090/ui</a></del></p>
+<p><del>此 Clash Dashboard 使用的是<a href="https://github.com/haishanh/yacd">yacd</a>项目，详细使用方法请移步到yacd上查询。</del></p>
+<p>通过浏览器访问别人部署好的网站，<a href="http://clash.razord.top/#/proxies">http://clash.razord.top/#/proxies</a>  </p>
+<ul>
+<li>登录管理界面</li>
+</ul>
+<p>在<code>API Base URL</code>一栏中输入：http:&#x2F;&#x2F;&lt;ip&gt;:9090 ，在<code>Secret(optional)</code>一栏中输入启动成功后输出的Secret。</p>
+<p>点击Add并选择刚刚输入的管理界面地址，之后便可在浏览器上进行一些配置。</p>
+<h1 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h1><ol>
+<li><p>部分Linux系统默认的 shell <code>/bin/sh</code> 被更改为 <code>dash</code>，运行脚本会出现报错（报错内容一般会有 <code>-en [ OK ]</code>）。建议使用 <code>bash xxx.sh</code> 运行脚本。</p>
+</li>
+<li><p>部分用户在UI界面找不到代理节点，基本上是因为厂商提供的clash配置文件是经过base64编码的，且配置文件格式不符合clash配置标准。</p>
+<p>目前此项目已集成自动识别和转换clash配置文件的功能。如果依然无法使用，则需要通过自建或者第三方平台（不推荐，有泄露风险）对订阅地址转换。</p>
+</li>
+<li><p>程序日志中出现<code>error: unsupported rule type RULE-SET</code>报错，解决方法查看官方<a href="https://github.com/Dreamacro/clash/wiki/FAQ#error-unsupported-rule-type-rule-set">WIKI</a></p>
+</li>
+</ol>
 ]]></content>
+  </entry>
+  <entry>
+    <title>输出文件目录</title>
+    <url>/2023/08/22/%E8%BE%93%E5%87%BA%E6%96%87%E4%BB%B6%E7%9B%AE%E5%BD%95(2023811)/</url>
+    <content><![CDATA[<h2 id="输出文件目录"><a href="#输出文件目录" class="headerlink" title="输出文件目录"></a>输出文件目录</h2><blockquote>
+<p>tree 命令</p>
+</blockquote>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">/F 显示每个文件夹中文件的名称。</span><br><span class="line"></span><br><span class="line">/A 使用 ASCII 字符，而不使用扩展字符(会把当前目录下的结构给展出来)。</span><br><span class="line"></span><br><span class="line">TREE [drive:][path] [/F] [/A]</span><br><span class="line">tree D:\目录树.txt        \\ 保存目录树到D盘下  </span><br></pre></td></tr></table></figure>]]></content>
   </entry>
 </search>
